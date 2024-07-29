@@ -1,0 +1,15 @@
+asgiref==3.8.1
+beautifulsoup4==4.12.3
+Django==5.0.2
+django-ckeditor==6.6.1
+django-debug-toolbar==4.3.0
+django-jazzmin==3.0.0
+django-js-asset==2.2.0
+nepali-datetime==1.0.8.2
+pillow==10.2.0
+PyMySQL==1.1.0
+python-decouple==3.8
+soupsieve==2.5
+sqlparse==0.4.4
+typing_extensions==4.11.0
+whitenoise==6.6.0

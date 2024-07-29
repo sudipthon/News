@@ -1,0 +1,173 @@
+{% extends 'base/base.html' %}
+{% load static %}
+{% load nepali_timesince %}
+{% block title %}
+<title>
+    {{ single_news.headline }}
+</title>
+
+{% endblock %}
+{% block content %}
+
+<main>
+
+    <!-- News Single Main Starts  -->
+
+    <section class="section" id="news-single-main">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-9">
+                    <div class="news-single-heading">
+                        <h1 class="text-center">{{single_news.headline}}</h1>
+                    </div>
+                    <div class="category-wrapper text-center mb-4">
+                        <i class="fa fa-tags me-2" aria-hidden="true"></i>
+                        <a href="#">प्रदेश</a>
+                        <a href="#">राजनीति</a>
+                        <a href="#">बागमती</a>
+                    </div>
+                    <div class="single-news-img">
+                        {% if single_news.featured_image %}
+                        <img src="{{single_news.featured_image.url}}" alt="">
+                        {% else %}
+                        <img src="{% static './images/placeholder.jpg' %}" alt="">
+                        {% endif %}
+                    </div>
+                    <div class="single-news-action my-4">
+                        <div class="single-news-author">
+                            <div class="author-img-wrapper">
+                                <img src="https://picsum.photos/id/237/200/300" alt="author_image">
+                            </div>
+                            <div class="author-name">
+                                <b> <a href="#">गोरखापत्र अनलाइन</a> </b>
+                            </div>
+                        </div>
+                        <div class="single-news-date-time">
+                            <span>
+                                <i class="fa fa-calendar me-2" aria-hidden="true"></i>
+                                {{single_news.posted_on_bs}} </span>
+                        </div>
+                        {% if single_news.posted_on > time_24_hours_ago %}
+
+                        <div class="single-news-post-time">
+                            <span>
+                                <i class="fa fa-clock-o me-2" aria-hidden="true"></i>{{single_news.posted_on|nepali_timesince}}
+                                पहिले
+                            </span>
+                        </div>
+
+                        {% endif %}
+
+
+                    </div>
+                    <hr>
+                    <div class="single-news-content">
+                        <p>
+                            {% if single_news.content %}p
+                            {{single_news.content|safe}}
+                            {% endif %}
+                        </p>
+                    </div>
+
+                    <!-- Ads Section Starts -->
+                    {% for ad in ads.main|slice:":1" %}
+                    <section class="banner-ads-full">
+                        <div class="container">
+                            <div class="ad-image-wrapper">
+                                <a href="#">
+                                    <img src="{{ad.image.url}}" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </section>
+                    {% endfor %}
+
+                    <!-- Ads Section Ends -->
+
+
+                    <!-- Related News -->
+                    <div class="news-single-related mb-3">
+                        <div class="section-heading">
+                            <h3 class="text-center text-md-start">सम्बन्धित खवर</h3>
+                        </div>
+                        <div class="news-related-swiper">
+
+                        </div>
+                        <div class="related-news-swiper my-4">
+                            <!-- Slider -->
+                            <div class="swiper">
+                                <!-- Additional required wrapper -->
+                                <div class="swiper-wrapper">
+                                    <!-- Slides -->
+                                    {% for news in category_posts|slice:':10' %}
+                                    <div class="swiper-slide">
+                                        <div class="featured-slider-wrapper">
+                                            <div class="featured-slider-img">
+                                                {% if news.featured_image %}
+                                                <img src="{{news.featured_image.url}}" alt="">
+                                                {% else %}
+                                                <img src="{% static './images/placeholder.jpg' %}" alt="">
+                                                {% endif %}
+                                            </div>
+                                            <div class="slider-img-content">
+                                                <a href="#">{{news.headline|truncatechars:'70'}} </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    {% endfor %}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Related News -->
+
+
+                </div>
+                <div class="col-lg-3">
+                    <div class="section-heading single-sidebar mb-4">
+                        <h3 class="text-center">ताजा अपडेट</h3>
+                    </div>
+                    <div class="news-single-sidebar">
+                        {% for news in latest_posts|slice:':6' %}
+                        <div class="feature-news-list mb-4">
+                            <h4><a class="fs-2" href="#">{{news.headline|truncatechars:30}}</a></h4>
+                        </div>
+                        {% endfor %}
+
+                    </div>
+
+
+                    <!-- Ads Section Starts -->
+                    {% for ad in ads.side|slice:':5' %}
+                    <section class="banner-ads-full">
+                        <div class="container">
+                            <div class="ad-image-wrapper">
+                                <a href="#">
+                                    <img src="{{ad.image.url}}" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </section>
+                    {% endfor %}
+                    <!-- Ads Section Ends -->
+
+                </div>
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+    <!-- News Single Main Ends  -->
+
+
+</main>
+
+
+
+
+{% endblock %}

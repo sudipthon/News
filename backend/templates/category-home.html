@@ -1,0 +1,242 @@
+{% extends 'base/base.html' %}
+{% load static %}
+{% load nepali_timesince %}
+
+
+{% block title %}
+<title>
+    News by Category
+</title>
+{% endblock %}
+{% block content %}
+<main>
+
+    <!-- Category Home Main Starts  -->
+
+    <section class="category-home">
+        <div class="container">
+            <div class="row my-4">
+                <!-- Main News -->
+                <div class="col-lg-9">
+                    <!-- Featured Single Item -->
+                    {% for news in category_post|slice:":1" %}
+                    <div class="category-featured-item">
+                        <div class="category-featured-img-wrapper">
+                            {% if news.featured_image %}
+                            <img src="{{news.featured_image.url}}" alt="">
+                            {% else %}
+                            <img src="{% static './images/placeholder.jpg' %}" alt="">
+                            {% endif %}
+                        </div>
+                        <div class="category-featured-content">
+                            <div class="featured-tag-date-wrapper">
+                                <div class="featured-content-tag">
+                                    <i class="fa fa-tags" aria-hidden="true"></i>
+                                    गोरखापत्र अनलाइन
+                                </div>
+                                <div class="featured-content-date">
+                                    <i class="fa fa-calendar" aria-hidden="true"></i>
+                                    {{news.posted_on_bs}}
+                                </div>
+                            </div>
+                            <div class="featured-content-heading text-center">
+                                <h3><a href="{% url 'single_news' news.id %}">{{news.headline|truncatechars:80}}
+                                    </a></h3>
+                            </div>
+                            <div class="featured-content-desc text-center">
+                                <p>{{news.first_paragraph|truncatechars:'150'}} </p>
+                            </div>
+                        </div>
+                    </div>
+                    {% endfor %}
+                    <!-- Regular News Items -->
+                    <div class="category-regular-items">
+                        {% for news in category_post|slice:"1:3" %}
+                        <div class="row align-items-center mb-4">
+                            <div class="col-lg-6">
+                                <div class="category-regular-img-wrapper">
+                                    {% if news.featured_image %}
+                                    <img src="{{news.featured_image.url}}" alt="">
+                                    {% else %}
+                                    <img src="{% static './images/placeholder.jpg' %}" alt="">
+                                    {% endif %}
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="d-flex gap-4 my-4">
+                                    <span>
+                                        <i class="fa fa-calendar me-2" aria-hidden="true"></i>
+                                        {{news.posted_on_bs}} </span>
+
+                                    {% if news.posted_on > time_24_hours_ago %}
+                                    <span>
+                                        <i class="fa fa-clock-o me-2"
+                                            aria-hidden="true"></i>{{news.posted_on|nepali_timesince}} पहिले
+                                    </span>
+                                    {% endif %}
+
+                                </div>
+                                <div class="regular-items-heading">
+                                    <h3><a
+                                            href="{% url 'single_news' news.id %}">{{news.headline|truncatechars:'80'}}</a>
+                                    </h3>
+                                </div>
+                                <div class="regular-items-desc">
+                                    <p>{{news.first_paragraph|truncatechars:'150'}}</p>
+                                </div>
+                            </div>
+                        </div>
+                        {% endfor %}
+
+                        <!-- Ads Section Starts -->
+                        {% for ad in ads.main|slice:":1" %}
+                        <section class="banner-ads-full">
+                            <div class="container">
+                                <div class="ad-image-wrapper">
+                                    <a href="{{ad.link}}">
+                                        <img src="{{ad.image.url}}" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                        </section>
+                        {% endfor %}
+
+                        <!-- Ads Section Ends -->
+
+
+
+                        {% for news in category_post|slice:"3:6" %}
+                        <div class="row align-items-center mb-4">
+                            <div class="col-lg-6">
+                                <div class="category-regular-img-wrapper">
+                                    {% if news.featured_image %}
+                                    <img src="{{news.featured_image.url}}" alt="">
+                                    {% else %}
+                                    <img src="{% static './images/placeholder.jpg' %}" alt="">
+                                    {% endif %}
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="d-flex gap-4 my-4">
+                                    <span>
+                                        <i class="fa fa-calendar me-2" aria-hidden="true"></i>
+                                        {{news.posted_on_bs}} </span>
+                                    <span>
+
+                                       
+                                    {% if news.posted_on > time_24_hours_ago %}
+                                    <span>
+                                        <i class="fa fa-clock-o me-2"
+                                            aria-hidden="true"></i>{{news.posted_on|nepali_timesince}} पहिले
+                                    </span>
+                                    {% endif %}
+                                </div>
+                                <div class="regular-items-heading">
+                                    <h3><a
+                                            href="{% url 'single_news' news.id %}">{{news.headline|truncatechars:'70'}}</a>
+                                    </h3>
+                                </div>
+                                <div class="regular-items-desc">
+                                    <p>{{news.first_paragraph|truncatechars:'150'}}</p>
+                                </div>
+                            </div>
+                        </div>
+                        {% endfor %}
+
+                        <!-- Ads Section Starts -->
+                        {% for ad in ads.main|slice:"1:2" %}
+                        <section class="banner-ads-full">
+                            <div class="container">
+                                <div class="ad-image-wrapper">
+                                    <a href="{{ad.link}}">
+                                        <img src="{{ad.image.url}}" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                        </section>
+                        {% endfor %}
+
+                        <!-- Ads Section Ends -->
+
+
+                    </div>
+                </div>
+                <!-- Sidebar -->
+                <div class="col-lg-3">
+                    <!-- Sidebar Title -->
+                    <div class="section-heading single-sidebar mb-4">
+                        <h3 class="text-center">ताजा अपडेट</h3>
+                    </div>
+                    <!-- Sidebar Featured Image Content -->
+                    {% for news in post|slice:":1" %}
+                    <div class="sidebar-image row align-items-center mb-4 flex-column">
+                        <div class="col">
+                            <div class="category-sidebar-img-wrapper">
+                                <a href="{% url 'single_news' news.id %}">
+                                    {% if news.featured_image %}
+                                    <img src="{{news.featured_image.url}}" alt="">
+                                    {% else %}
+                                    <img src="{% static './images/placeholder.jpg' %}" alt="">
+                                    {% endif %} </a>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="d-flex gap-4 my-2">
+                                <span>
+                                    <i class="fa fa-user" aria-hidden="true"></i>
+                                    गोरखापत्र अनलाइन
+                                </span>
+                                <span>
+                                    <i class="fa fa-calendar me-2" aria-hidden="true"></i>
+                                    {{news.posted_on_bs}} </span>
+                            </div>
+                            <div class="regular-items-heading">
+                                <h3><a class="fs-2" href="{% url 'single_news' news.id%}">{{news.headline|slice:'80'}}</a></h3>
+                            </div>
+                        </div>
+                    </div>
+                    {% endfor %}
+                    <!-- Sidebar Non Image Content -->
+                    {% for news in post|slice:"1:5" %}
+                    <div class="sidebar-non-image row align-items-center mb-4 flex-column">
+                        <div class="d-flex justify-content-between my-2">
+                            <span>
+                                <i class="fa fa-user" aria-hidden="true"></i>
+                                गोरखापत्र अनलाइन
+                            </span>
+                            <span>
+                                <i class="fa fa-calendar me-2" aria-hidden="true"></i>
+                                {{news.posted_on_bs}} </span>
+                        </div>
+                        <h3><a class="fs-2"
+                                href="{% url 'single_news' news.id %}">{{news.headline|truncatechars:'80'}}</a></h3>
+                    </div>
+
+                    {% endfor %}
+                    <!-- Ads Section Starts -->
+                    {% for ad in ads.side|slice:":3" %}
+                    <section class="banner-ads-full">
+                        <div class="container">
+                            <div class="ad-image-wrapper">
+                                <a href="{{ad.link}}">
+                                    <img src="{{ad.image.url}}" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </section>
+                    {% endfor %}
+
+                    <!-- Ads Section Ends -->
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Category Home Main Ends  -->
+
+
+</main>
+
+
+{% endblock %}

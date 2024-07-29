@@ -1,0 +1,135 @@
+{% load static %}
+
+<!-- Header Starts -->
+<header>
+    <!-- HeaderTopBar -->
+    <div class="topbar">
+        <div class="container">
+            <div class="topbar-body">
+                <div class="topbar-icons-wrapper">
+                    <a href="https:www.facebook.com" target="_blank"><i class="bi bi-facebook"></i></a>
+                    <a href="https:www.instagram.com" target="_blank"><i class="bi bi-instagram"></i></a>
+                    <a href="https:www.twitter.com" target="_blank"><i class="bi bi-twitter"></i></a>
+                    <a href="https:www.youtube.com" target="_blank"><i class="bi bi-youtube"></i></a>
+
+                </div>
+                <div class="topbar-action-wrapper">
+                    <ul>
+                        <li class="top-action-items">
+                            <a href="https://www.risingnepaldaily.com" target="_blank">
+                                <img src="https://gorkhapatraonline.com/commons/header-icons/trn.png"
+                                    alt="The Rising Nepal">
+                            </a>
+                        </li>
+                        <li class="top-action-items">
+                            <a href="https://gorkhapatraonline.com/publications/muna" class="publication-link">
+                                <img src="https://gorkhapatraonline.com/commons/header-icons/muna.png" alt="मुना">
+                            </a>
+                        </li>
+
+                        <li class="top-action-items">
+                            <a href="https://gorkhapatraonline.com/publications/madhupark" class="publication-link">
+                                <img src="https://gorkhapatraonline.com/commons/header-icons/madhupark.png"
+                                    alt="मधुपर्क">
+                            </a>
+                        </li>
+
+                        <li class="top-action-items">
+                            <a href="https://gorkhapatraonline.com/publications/yuba-manch" class="publication-link">
+                                <img src="https://gorkhapatraonline.com/commons/header-icons/yuba-manch.png"
+                                    alt="युवामञ्च">
+                            </a>
+                        </li>
+                        <li class="top-action-items">
+                            <a href="https://gorkhapatraonline.com/publications/naya-nepal" class="publication-link">
+                                <img src="https://gorkhapatraonline.com/commons/header-icons/naya-nepal.png"
+                                    alt="नयाँ नेपाल">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="mobile-search-wrapper">
+                    <form action="{% url 'index' %}" method="POST">
+                        {% csrf_token %}
+                        <input id="search-input-mbl" name="search" type="text" placeholder="Search News Here....">
+                        <button class="fa fa-search search-icon" aria-hidden="true"></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+
+    <!-- HeaderMidBar -->
+    <div class="midbar">
+        <div class="container">
+            <div class="row align-items-center justify-content-center">
+                <div class="col d-none d-md-block">
+                    <div class="date-time-wrapper">
+                        <p>
+                        
+                            {{date}}
+                        </p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="midbar-logo-wrapper">
+                        <a href="{% url 'index' %}">
+                            <img src="{% static './images/logo/logo1.png' %}"  alt="logo">
+                        </a>
+                    </div>
+                </div>
+                <div class="col d-md-none flex-grow-0">
+                    <!-- Hamburger Icon -->
+                    <div id="mbl-menu-icon">
+                        <div class="line"></div>
+                        <div class="line"></div>
+                        <div class="line"></div>
+                    </div>
+                </div>
+                <div class="col d-none d-md-block">
+                    <div class="midbar-search-wrapper">
+                        <form action="{% url 'index' %}" method="POST">
+                            {% csrf_token %}
+                            <input id="search-input" name="search" type="text" placeholder="Search News Here....">
+                            <button class="fa fa-search search-icon" aria-hidden="true"></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Header Menu Bar -->
+    <div class="menu-bar d-md-block">
+        <div class="container">
+            <nav>
+                <ul class="header-main-menu">
+                    <div class="close-btn d-md-none">
+                        <i class="fa fa-times" aria-hidden="true"></i>
+                    </div>
+                    <li><a href="{% url 'index' %}">होमपेज</a></li>
+                    {% for category in categories %}
+                    {% if not category.subcategories %}
+                    <li><a href="{% url 'category' category.url_name%}">{{category.name}}</a></li>
+                    {% endif %}
+                    {% if category.subcategories %}
+                    <li class="drop-menu">
+                        <a href="{% url 'category' category.url_name%}">{{category.name}}</a>
+                        <i class="fa fa-angle-down fa-xs"></i>
+                        <ul class="drop-items">
+                            {% for subcategory in category.subcategories%}
+                            <li><a href="{% url 'category' subcategory.url_name%}">{{subcategory.name}}</a></li>
+                            {% endfor %}
+
+                        </ul>
+                    </li>
+                    {% endif %}
+                    {% endfor %}
+                </ul>
+            </nav>
+        </div>
+    </div>
+</header>
+<!-- Header Ends -->

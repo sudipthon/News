@@ -1,0 +1,275 @@
+/* Media Queries */
+
+/* XS */
+@media (min-width: 475px) {}
+
+/* SM */
+@media (min-width: 640px) {}
+
+/* MD */
+@media (min-width: 768px) {
+
+  /* Heading Font Sizes Starts */
+
+  h1{
+    font-size: var(--text-3xl);
+  }
+
+  h2,
+  h2>a {
+    font-size: var(--text-3xl);
+  }
+
+  h3 {
+    font-size: var(--text-2xl);
+  }
+
+  h4 {
+    font-size: var(--text-2xl);
+  }
+
+  /* Heading Font Sizes Ends */
+
+  /* || Header Starts */
+
+  /* Header ->Midbar Starts */
+
+  .midbar {
+    background: none;
+    padding: 3rem;
+  }
+
+  .midbar.sticky{
+    position: static;
+  }
+
+  .midbar-logo-wrapper {
+    height: 60px;
+  }
+
+  .midbar-logo-wrapper img {
+    height: 100%;
+    width: 100%;
+  }
+
+  .mobile-search-wrapper{
+    display: none;
+  }
+
+  /* Header ->Midbar Ends */
+
+  /* Header ->TopBar Starts */
+
+  .topbar-body {
+    flex-direction: row;
+    gap: 0;
+  }
+
+  .topbar-action-wrapper ul {
+    display: flex;
+    gap: 2rem;
+  }
+
+  /* Header ->TopBar Ends */
+
+  /* Header Menu */
+  .header-main-menu {
+    padding-block: 1rem;
+    display: flex;
+    gap: 4rem;
+    justify-content: center;
+  }
+
+
+  /* || Header Ends */
+
+  /* || Feature Section Starts */
+
+  .feature-box .feature-box-img {
+    height: 350px;
+  }
+
+  /* Feature -> Slider Starts */
+  .featured-slider-img {
+    height: 160px;
+  }
+
+  /* Feature -> Slider Ends */
+
+  /* || Feature Section Ends */
+
+
+  /* || News Section Starts */
+
+  .news-item-img {
+    height: 250px;
+  }
+
+  /* || News Section Ends */
+
+   /* News Single Main Starts */
+   
+   .single-news-img{
+     height: 350px;
+    }
+
+    .single-news-content img{
+      height: 350px;
+    }
+
+    /* News Single Main Ends */
+
+    /* Category Home Main Starts  */
+
+    .category-featured-img-wrapper{
+      height: 300px;
+    }
+
+    /* Category Home Main Ends  */
+
+}
+
+/* LG */
+@media (min-width: 1024px) {
+  /* Heading Font Sizes Starts */
+
+  h1{
+    font-size: var(--text-4xl);
+  }
+
+  h2,
+  h2>a {
+    font-size: var(--text-4xl);
+  }
+
+  h3,
+  h3>a {
+    font-size: var(--text-3xl);
+  }
+
+  h4 {
+    font-size: var(--text-3xl);
+  }
+
+  /* Heading Font Sizes Ends */
+
+  /* || Feature Section Starts */
+
+  .feature-box .feature-box-img {
+    height: 450px;
+  }
+
+  /* || Feature Section Ends */
+
+  /* || News Section Starts */
+
+  .news-item-img {
+    height: 300px;
+  }
+
+  /* || News Section Ends */
+
+  /* News Single Main Starts */
+   
+  .single-news-img{
+    height: 400px;
+   }
+
+   .single-news-content img{
+      height: 400px;
+    }
+   
+   .news-single-heading{
+    position: sticky;
+    top:44px;
+    background: var(--clr-white);
+    z-index: 2;
+   }
+   /* News Single Main Ends */
+
+    /* Category Home Main Starts  */
+
+    .category-featured-img-wrapper{
+      height: 400px;
+    }
+
+    /* Category Home Main Ends  */
+
+}
+
+/* XL */
+@media (min-width: 1280px) {
+  /* Heading Font Sizes Starts */
+
+  h1{
+    font-size: var(--text-5xl);
+  }
+
+  h2,
+  h2>a {
+    font-size: var(--text-5xl);
+  }
+
+  /* Heading Font Sizes Ends */
+
+    /* News Single Main Starts */
+   
+    .single-news-img{
+      height: 450px;
+     }
+     
+     /* News Single Main Ends */
+
+     /* Category Home Main Starts  */
+
+    .category-featured-img-wrapper{
+      height: 450px;
+    }
+
+    /* Category Home Main Ends  */
+}
+
+/* XXl */
+@media (min-width: 1366px) {
+  /* Heading Font Sizes Starts */
+
+  h1{
+    font-size: var(--text-6xl);
+  }
+
+  h2,
+  h2>a {
+    font-size: var(--text-6xl);
+  }
+
+  /* Heading Font Sizes Ends */
+
+  /* || Feature Section Starts */
+
+  .feature-box .feature-box-img {
+    height: 520px;
+  }
+
+  /* || Feature Section Ends */
+
+    /* News Single Main Starts */
+   
+    .single-news-img{
+      height: 500px;
+     }
+     
+     /* News Single Main Ends */
+
+     /* Category Home Main Starts  */
+
+    .category-featured-img-wrapper{
+      height: 450px;
+    }
+
+    /* Category Home Main Ends  */
+}
+
+/* 2XL */
+@media (min-width: 1536px) {
+  
+}

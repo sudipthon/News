@@ -1,0 +1,7 @@
+.section{
+    margin-block: 2rem;
+}
+
+.swiper-slide {
+    cursor: grabbing;
+}
