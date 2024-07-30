@@ -13,7 +13,7 @@ hamburgericon.addEventListener("click", () => {
   }
 });
 
-// Close Button Event 
+// Close Button Event
 closebtn.addEventListener("click", () => {
     mblmenuitems.classList.remove("mblopen");
 });
@@ -132,4 +132,3 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
 });
-

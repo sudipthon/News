@@ -11,16 +11,17 @@ https://docs.djangoproject.com/en/5.0/ref/settings/
 """
 
 # django imports
-from pathlib import Path
+from pathlib import \
+    Path
 
 # python imports
-from decouple import config
-from django.utils.text import slugify
-
+from decouple import \
+    config
+from django.utils.text import \
+    slugify
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
-
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/5.0/howto/deployment/checklist/
@@ -86,7 +87,6 @@ TEMPLATES = [
 
 WSGI_APPLICATION = "gorkhapatra.wsgi.application"
 
-
 # Database
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
 
@@ -108,7 +108,6 @@ DATABASES = {
     }
 }
 
-
 # Password validation
 # https://docs.djangoproject.com/en/5.0/ref/settings/#auth-password-validators
 
@@ -127,7 +126,6 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
-
 # Internationalization
 # https://docs.djangoproject.com/en/5.0/topics/i18n/
 
@@ -138,7 +136,6 @@ TIME_ZONE = "UTC"
 USE_I18N = True
 
 USE_TZ = True
-
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.0/howto/static-files/
@@ -159,7 +156,6 @@ CKEDITOR_UPLOAD_PATH = "posts/"
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
-
 # django debug toolbar
 DEBUG_TOOLBAR_PANELS = [
     "debug_toolbar.panels.history.HistoryPanel",
@@ -178,23 +174,16 @@ DEBUG_TOOLBAR_PANELS = [
 ]
 
 # cache settings
-CACHES = {
-    "default": {
-        "BACKEND": "django.core.cache.backends.locmem.LocMemCache",
-    }
-}
-
+CACHES = {"default": {"BACKEND": "django.core.cache.backends.locmem.LocMemCache",}}
 
 CKEDITOR_UPLOAD_PATH = "posts/"
 CKEDITOR_CONFIGS = {
     "default": {
         "height": "600px",
         "width": "900px",
-        "extraPlugins": ",".join(
-            [
-                "image2",
-            ]
-        ),
+        "extraPlugins": ",".join([
+            "image2",
+        ]),
     },
 }
 
@@ -218,7 +207,6 @@ JAZZMIN_SETTINGS = {
     },
 }
 # JAZZMIN_SETTINGS["show_ui_builder"] = True
-
 
 # LOGGING = {
 #     'version': 1,

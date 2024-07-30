@@ -108,7 +108,7 @@
   /* || News Section Ends */
 
    /* News Single Main Starts */
-   
+
    .single-news-img{
      height: 350px;
     }
@@ -170,7 +170,7 @@
   /* || News Section Ends */
 
   /* News Single Main Starts */
-   
+
   .single-news-img{
     height: 400px;
    }
@@ -178,7 +178,7 @@
    .single-news-content img{
       height: 400px;
     }
-   
+
    .news-single-heading{
     position: sticky;
     top:44px;
@@ -213,11 +213,11 @@
   /* Heading Font Sizes Ends */
 
     /* News Single Main Starts */
-   
+
     .single-news-img{
       height: 450px;
      }
-     
+
      /* News Single Main Ends */
 
      /* Category Home Main Starts  */
@@ -253,11 +253,11 @@
   /* || Feature Section Ends */
 
     /* News Single Main Starts */
-   
+
     .single-news-img{
       height: 500px;
      }
-     
+
      /* News Single Main Ends */
 
      /* Category Home Main Starts  */
@@ -271,5 +271,5 @@
 
 /* 2XL */
 @media (min-width: 1536px) {
-  
+
 }

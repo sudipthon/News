@@ -1,22 +1,29 @@
 # django imports
-from django.db import models
-from django.contrib.auth.models import User
-from django.utils.text import slugify
-from django.utils import timezone
-from django.core.cache import cache
-from django.utils.functional import cached_property
-
-
-# django third party imports
-from ckeditor_uploader.fields import RichTextUploadingField
-
-# python imports
-import nepali_datetime
-from nepali_datetime import date
-from bs4 import BeautifulSoup
 import datetime
 import os
 import re
+
+# python imports
+import nepali_datetime
+from bs4 import \
+    BeautifulSoup
+# django third party imports
+from ckeditor_uploader.fields import \
+    RichTextUploadingField
+from django.contrib.auth.models import \
+    User
+from django.core.cache import \
+    cache
+from django.db import \
+    models
+from django.utils import \
+    timezone
+from django.utils.functional import \
+    cached_property
+from django.utils.text import \
+    slugify
+from nepali_datetime import \
+    date
 
 # Create your models here.
 
@@ -27,9 +34,7 @@ def get_upload_path(instance, filename):
     """
     if isinstance(instance, Post):
         sanitized_headline = re.sub("[^a-zA-Z]", "", instance.headline)
-        return os.path.join(
-            "Posts", instance.author.username, sanitized_headline[:20], filename
-        )
+        return os.path.join("Posts", instance.author.username, sanitized_headline[:20], filename)
 
     return os.path.join("Ads", instance.party_name, instance.title, filename)
 
@@ -89,9 +94,7 @@ class Post(models.Model):
     )
 
     headline = models.TextField()
-    featured_image = models.ImageField(
-        upload_to=get_upload_path, null=True, blank=True, default="None"
-    )
+    featured_image = models.ImageField(upload_to=get_upload_path, null=True, blank=True, default="None")
     first_paragraph = models.TextField(null=True, blank=True)
     content = RichTextUploadingField()
     posted_on = models.DateTimeField(blank=True, null=True)
@@ -99,31 +102,27 @@ class Post(models.Model):
     last_modified = models.DateTimeField(auto_now=True)
     categories = models.ManyToManyField("Category", related_name="category_posts")
     tags = models.ManyToManyField("Tags", related_name="tag_posts")
-    author = models.ForeignKey(
-        User, on_delete=models.CASCADE, related_name="user_posts"
-    )
+    author = models.ForeignKey(User, on_delete=models.CASCADE, related_name="user_posts")
     views_count = models.IntegerField(default=0)
     status = models.CharField(max_length=100, choices=options, default="Draft")
-    
+
     class Meta:
         ordering = ["-posted_on"]
 
     def __str__(self):
         return self.headline
-    
 
-  
     def save(self, *args, **kwargs):
         if self.status == "Published" and self.pk is not None:
             old_post = Post.objects.get(pk=self.pk)
             if old_post.status != "Published":
                 self.posted_on = timezone.now()
-                self.posted_on_bs = nepali_datetime.date.from_datetime_date(self.posted_on.date()).strftime('%D %N %K, %G')
+                self.posted_on_bs = nepali_datetime.date.from_datetime_date(self.posted_on.date()
+                                                                            ).strftime('%D %N %K, %G')
         elif self.status != "Published":
             self.posted_on = None
             self.posted_on_bs = None
 
-            
         soup = BeautifulSoup(self.content, "html.parser")
         first_p = soup.find_all("p")
         for p in first_p:
@@ -154,9 +153,7 @@ class Ad(models.Model):
     expiry_date = models.DateField(null=True, blank=True)
     link = models.URLField(null=True, blank=True)
     section = models.CharField(max_length=100, choices=options, default="main")
-    categories = models.ManyToManyField(
-        "Category", related_name="category_ads", blank=True
-    )
+    categories = models.ManyToManyField("Category", related_name="category_ads", blank=True)
 
     def __str__(self):
         return self.title

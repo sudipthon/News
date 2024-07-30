@@ -173,7 +173,7 @@ p {
   display: flex;
   justify-content: flex-end;
 }
- 
+
 .midbar-search-wrapper>form{
   display: flex;
   align-items: center;
@@ -745,6 +745,6 @@ p {
     opacity: 1;
     translate: 0 0;
 }
-  
+
 }
 /* Pop Up Ends */

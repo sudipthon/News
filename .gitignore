@@ -3,7 +3,7 @@ venv/
 .vscode/
 **/__pycache__/
 commands.txt
-a.py 
+a.py
 tasks.txt
 steps.txt
 

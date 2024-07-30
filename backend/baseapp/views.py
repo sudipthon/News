@@ -1,18 +1,18 @@
 # django imports
-from django.shortcuts import render, redirect
-from django.http import HttpResponse
-from django.db.models import Q
-from django.core.cache import cache
-from django.db.models import Prefetch
-from django.db.models import F
-from django.utils import timezone
-
-# local imports
-from .models import Ad, Category, Post, Popup
-from .forms import PostForm, AdForm
-
 # python imports
 import nepali_datetime
+from django.core.cache import \
+    cache
+from django.db.models import (F, Prefetch, Q)
+from django.http import \
+    HttpResponse
+from django.shortcuts import (redirect, render)
+from django.utils import \
+    timezone
+
+from .forms import (AdForm, PostForm)
+# local imports
+from .models import (Ad, Category, Popup, Post)
 
 
 def get_ads(request, categoryad=None):
@@ -21,9 +21,8 @@ def get_ads(request, categoryad=None):
         ad_category = Category.objects.prefetch_related(Prefetch("category_ads"))
 
         ads = {
-            category.url_name: [ad for ad in category.category_ads.all()]
-            for category in ad_category
-            if category.category_ads.all()
+            category.url_name: [ad for ad in category.category_ads.all()
+                                ] for category in ad_category if category.category_ads.all()
         }
 
         cache.set("ads", ads, 60 * 60 * 24)  # cache for 24 hours
@@ -42,35 +41,25 @@ def get_categories(request):
             Category.objects.prefetch_related(
                 Prefetch(
                     "category_posts",
-                    queryset=Post.objects.only(
-                        "headline", "featured_image", "first_paragraph", "posted_on_bs"
-                    ).filter(status="Published")[:15],
+                    queryset=Post.objects.only("headline", "featured_image", "first_paragraph",
+                                               "posted_on_bs").filter(status="Published")[:15],
                     to_attr="latest_posts",
                 ),
                 "subcategories",
-            )
-            .exclude(name="home")
-            .filter(parent=None)
+            ).exclude(name="home").filter(parent=None)
         )
-        categories_list = [
-            {
-                "name": category.name,
-                "url_name": category.url_name,
-                "category_posts": category.latest_posts,
-                "subcategories": (
-                    [
-                        {
-                            "name": subcategory.name,
-                            "url_name": subcategory.url_name,
-                        }
-                        for subcategory in category.subcategories.all()
-                    ]
-                    if category.subcategories.exists()
-                    else []
-                ),
-            }
-            for category in categories
-        ]
+        categories_list = [{
+            "name":
+                category.name,
+            "url_name":
+                category.url_name,
+            "category_posts":
+                category.latest_posts,
+            "subcategories": ([{
+                "name": subcategory.name,
+                "url_name": subcategory.url_name,
+            } for subcategory in category.subcategories.all()] if category.subcategories.exists() else []),
+        } for category in categories]
 
         cache.set("categories", categories_list, 60 * 60 * 24)  # cache for 24 hours
     return categories_list
@@ -94,22 +83,16 @@ def index(request):
     date = nepali_datetime.date.today().strftime("%D %N %K, %G")
     search = request.POST.get("search")
     post = (
-        Post.objects.all()
-        .only("headline", "featured_image", "first_paragraph", "posted_on_bs")
-        .filter(status="Published")
-        .order_by("-posted_on")[:30]
+        Post.objects.all().only("headline", "featured_image", "first_paragraph",
+                                "posted_on_bs").filter(status="Published").order_by("-posted_on")[:30]
     )
     if search:
         post = (
             Post.objects.filter(
-                Q(headline__icontains=search)
-                | Q(categories__name__icontains=search)
-                | Q(categories__url_name__icontains=search)
-                | Q(tags__name__icontains=search)
-            )
-            .filter(status="Published")
-            .distinct()
-            .only("headline", "featured_image", "first_paragraph", "posted_on_bs")[:30]
+                Q(headline__icontains=search) | Q(categories__name__icontains=search) |
+                Q(categories__url_name__icontains=search) | Q(tags__name__icontains=search)
+            ).filter(status="Published"
+                     ).distinct().only("headline", "featured_image", "first_paragraph", "posted_on_bs")[:30]
         )
 
     ads_cache = get_ads(request, "home")
@@ -156,20 +139,14 @@ def news_by_category(request, urlName: str):
 
     categories = get_categories(request)
     category_post = [
-        post
-        for category in categories
-        if category["url_name"] == urlName
-        for post in category["category_posts"]
+        post for category in categories if category["url_name"] == urlName for post in category["category_posts"]
     ]
 
-    category_post = Post.objects.filter(
-        Q(categories__url_name=urlName) & Q(status="published")
-    )
+    category_post = Post.objects.filter(Q(categories__url_name=urlName) & Q(status="published"))
 
     post = (
-        Post.objects.all()
-        .exclude(categories__url_name=urlName)[:3]
-        .only("headline", "featured_image", "posted_on_bs")
+        Post.objects.all().exclude(categories__url_name=urlName
+                                   )[:3].only("headline", "featured_image", "posted_on_bs")
     )
     time_24_hours_ago = timezone.now() - timezone.timedelta(hours=24)
 
@@ -220,10 +197,6 @@ def single_news(request, id):
     categories = get_categories(request)
     single_post = Post.objects.get(id=id)
     Post.objects.filter(id=id).update(views_count=F("views_count") + 1)
-
-
-
-
 
     ads_cache = get_ads(request, single_post.categories.all()[0].url_name)
     ads = {"main": [], "side": []}
