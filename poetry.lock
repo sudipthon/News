@@ -120,6 +120,17 @@ django = ">=3.2"
 tests = ["coverage"]
 
 [[package]]
+name = "django-split-settings"
+version = "1.3.2"
+description = "Organize Django settings into multiple files and directories. Easily override and modify settings. Use wildcards and optional settings files."
+optional = false
+python-versions = "<4.0,>=3.9"
+files = [
+    {file = "django_split_settings-1.3.2-py3-none-any.whl", hash = "sha256:72bd7dd9f12602585681074d1f859643fb4f6b196b584688fab86bdd73a57dff"},
+    {file = "django_split_settings-1.3.2.tar.gz", hash = "sha256:d3975aa3601e37f65c59b9977b6bcb1de8bc27496930054078589c7d56998a9d"},
+]
+
+[[package]]
 name = "nepali-datetime"
 version = "1.0.8.2"
 description = "Datetime module that operates on top of Bikram Sambat Date & Nepal Time."
@@ -307,4 +318,4 @@ brotli = ["Brotli"]
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
-content-hash = "3d65e309ebcba3531b4a02655fbd7710fa353e0248066f08b727ff25c8adf67e"
+content-hash = "adf19536c568cdd189a86356e8216cad942ca9663367b69b7f677d827fb338f8"

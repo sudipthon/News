@@ -48,6 +48,8 @@
 #doing this lets makesystem know they aren't files but cmnds and speeds up the process,avoids conflicts if there are files with the same name
 .PHONY: install rs mm mi ms csu shell t
 
+:
+
 #installing dependencies
 #make -i
 -i:
