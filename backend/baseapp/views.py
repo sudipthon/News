@@ -8,7 +8,7 @@ from django.db.models import F
 from django.utils import timezone
 
 # local imports
-from .models import *
+from .models import Ad, Category, Post, Popup
 from .forms import PostForm, AdForm
 
 # python imports
@@ -220,6 +220,10 @@ def single_news(request, id):
     categories = get_categories(request)
     single_post = Post.objects.get(id=id)
     Post.objects.filter(id=id).update(views_count=F("views_count") + 1)
+
+
+
+
 
     ads_cache = get_ads(request, single_post.categories.all()[0].url_name)
     ads = {"main": [], "side": []}

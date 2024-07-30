@@ -1,0 +1,13 @@
+[flake8]
+
+# ignore=E203, E266, E501, W503c
+
+exclude = .git,__pycache__,docs/source/conf.py,old,build,dist,venv,.venv,.tox,.eggs,*.egg-info
+filename = *.py
+accept-encodings = utf-8
+inline-quotes = single
+max-complexity = 12
+max-linenumbers = 100
+max-line-length = 120
+multiple-quotes = double
+# per-file-ignores =

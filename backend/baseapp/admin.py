@@ -5,7 +5,6 @@ from django.core.cache import cache
 
 # Register your models here.
 
-from django import forms
 from django.contrib import admin
 from django.db.models.query import QuerySet
 from django.http import HttpRequest
