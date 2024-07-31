@@ -11,14 +11,11 @@ https://docs.djangoproject.com/en/5.0/ref/settings/
 """
 
 # django imports
-from pathlib import \
-    Path
+from pathlib import Path
 
 # python imports
-from decouple import \
-    config
-from django.utils.text import \
-    slugify
+from decouple import config
+from django.utils.text import slugify
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -208,21 +205,52 @@ JAZZMIN_SETTINGS = {
 }
 # JAZZMIN_SETTINGS["show_ui_builder"] = True
 
-# LOGGING = {
-#     'version': 1,
-#     'disable_existing_loggers': False,
-#     'handlers': {
-#         'file': {
-#             'level': 'ERROR',
-#             'class': 'logging.FileHandler',
-#             'filename': [BASE_DIR / "logs" / "error.log"],
-#         },
-#     },
-#     'loggers': {
-#         'django': {
-#             'handlers': ['file'],
-#             'level': 'ERROR',
-#             'propagate': True,
-#         },
-#     },
-# }
+LOGGING = {
+    "version": 1,
+    "disable_existing_loggers": False,
+    "formatters": {
+        "standard": {
+            "format": "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+        },
+    },
+    # "handlers": {
+    #     "default": {
+    #         "level": "DEBUG",
+    #         "class": "logging.handlers.RotatingFileHandler",
+    #         "filename": "logs/app.log",
+    #         "maxBytes": 1024 * 1024 * 5,  # 5 MB
+    #         "backupCount": 5,
+    #         "formatter": "standard",
+    #     },
+    #     "console": {
+    #         "level": "DEBUG",
+    #         "class": "logging.StreamHandler",
+    #         "formatter": "standard",
+    #     },
+    # },
+    "handlers": {
+        "console": {
+            "level": "INFO",
+            "class": "logging.StreamHandler",
+            "formatter": "standard",
+            "filters": [],
+        },
+    },
+    "loggers": {
+        logger_name: {
+            # 'handlers': ['console'],
+            "level": "INFO",
+            "propagate": True,
+        } for logger_name in [
+            "django",
+            "django.request",
+            "django.db.backends",
+            "django.security",
+            "django.server",
+        ]
+    },
+    "root": {
+        "level": "DEBUG",
+        "handlers": ["console"],
+    },
+}

@@ -29,6 +29,12 @@ urlpatterns = [
     path("", include("baseapp.urls")),
 ]
 
+import logging
+
+logger = logging.getLogger('this is hahaha haha')
+logger.info('haha')
+logger.debug('haha hahah ahahah')
+logger.error('haha')
 # if settings.DEBUG:
 urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 

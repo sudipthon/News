@@ -46,9 +46,23 @@
 
 
 #doing this lets makesystem know they aren't files but cmnds and speeds up the process,avoids conflicts if there are files with the same name
-.PHONY: install rs mm mi ms csu shell t
+.PHONY: install rs mm mi ms csu shell t i-pre-commit u-pre-commit up-pre-commit
 
-:
+
+#installing pre-commit
+#make i -pre-commit
+i-pre-commit:
+	poetry run pre-commit install
+
+#uninstalling pre-commit
+#make u -pre-commit
+u-pre-commit:
+	poetry run pre-commit uninstall
+
+#updating pre-commit
+#make up -pre-commit
+up-pre-commit: u-pre-commit i-pre-commit
+
 
 #installing dependencies
 #make -i
