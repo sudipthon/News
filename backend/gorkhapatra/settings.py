@@ -87,23 +87,25 @@ WSGI_APPLICATION = "gorkhapatra.wsgi.application"
 # Database
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
 
-# DATABASES = {
-#     "default": {
-#         "ENGINE": "django.db.backends.mysql",
-#         "NAME": "NEWS",
-#         "USER": "root",
-#         "PASSWORD": "",
-#         "HOST": "localhost",
-#         "PORT": "3306",
-#     }
-# }
-
 DATABASES = {
     "default": {
-        "ENGINE": "django.db.backends.sqlite3",
-        "NAME": BASE_DIR / "db.sqlite3",
+        "ENGINE": "django.db.backends.postgresql",
+        "NAME": "news",
+        "USER": "news",
+        "PASSWORD": "news",
+        "HOST": "localhost",
+        "PORT": "5433",
+        "ATOMIC_REQUESTS": True,
+        "CONN_MAX_AGE": 600,
     }
 }
+
+# DATABASES = {
+#     "default": {
+#         "ENGINE": "django.db.backends.sqlite3",
+#         "NAME": BASE_DIR / "db.sqlite3",
+#     }
+# }
 
 # Password validation
 # https://docs.djangoproject.com/en/5.0/ref/settings/#auth-password-validators

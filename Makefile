@@ -50,58 +50,62 @@
 
 
 #installing pre-commit
-#make i -pre-commit
 i-pre-commit:
 	poetry run pre-commit install
 
 #uninstalling pre-commit
-#make u -pre-commit
 u-pre-commit:
 	poetry run pre-commit uninstall
 
 #updating pre-commit
-#make up -pre-commit
 up-pre-commit: u-pre-commit i-pre-commit
 
 
 #installing dependencies
-#make -i
 -i:
 	poetry install
 
 #runserver:
-#make rs
 rs:
 	poetry run python backend/manage.py runserver
 
 
 #makemigrations:
-#make mm
 mm:
 	poetry run python backend/manage.py makemigrations
 
 
 #migrate:
-#make m
 mi:
 	poetry run python backend/manage.py migrate
 
 
-#migrate and make migrations:
-#make ms
+#makemigrations and migrate:
 ms: mm mi;
 
 #create superuser:
-#make csu
 csu:
 	poetry run python backend/manage.py createsuperuser
 
+
+
 #django shell:
-#make shell
 shell:
 	poetry run python backend/manage.py shell
 
 #test:
-#make t
 t:
 	poetry run pytest
+
+#dumpdata:
+dd:
+	poetry run python backend/manage.py dumpdata > whole.json
+
+
+#loaddata:
+ld:
+	poetry run python backend/manage.py loaddata whole.json
+
+# docker compose
+docker-c-up:
+	docker-compose -f docker-compose.dev.yml up --force-recreate db
