@@ -60,6 +60,9 @@ u-pre-commit:
 #updating pre-commit
 up-pre-commit: u-pre-commit i-pre-commit
 
+# run pre-commit outside of the git hooks
+pre-commit:
+	poetry run pre-commit run --all-files
 
 #installing dependencies
 -i:
@@ -99,12 +102,12 @@ t:
 
 #dumpdata:
 dd:
-	poetry run python backend/manage.py dumpdata > whole.json
+	cd backend && poetry run python manage.py dumpdata > whole.json
 
 
 #loaddata:
 ld:
-	poetry run python backend/manage.py loaddata whole.json
+	cd backend && poetry run python manage.py loaddata whole.json
 
 # docker compose
 docker-c-up:

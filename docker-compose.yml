@@ -1,19 +1,27 @@
 version: '3.9'
 
 services:
-
   db:
     image: postgres:14.2-alpine
     restart: unless-stopped
     ports:
-      - '5433:5432' #host:container
-
+      - '5433:5432'
     environment:
       POSTGRES_DB: news
       POSTGRES_USER: news
       POSTGRES_PASSWORD: news
     volumes:
       - postgresql-data:/var/lib/postgresql/data
+
+  app:
+    build: .
+    restart: unless-stopped
+    ports:
+      - '8000:8000'
+    depends_on:
+      - db
+    environment:
+      DATABASE_URL: postgres://news:news@db:5432/news
 
 volumes:
   postgresql-data:

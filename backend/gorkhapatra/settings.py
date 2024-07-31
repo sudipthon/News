@@ -15,7 +15,7 @@ from pathlib import Path
 
 # python imports
 from decouple import config
-from django.utils.text import slugify
+import dj_database_url
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -87,18 +87,23 @@ WSGI_APPLICATION = "gorkhapatra.wsgi.application"
 # Database
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
 
-DATABASES = {
-    "default": {
-        "ENGINE": "django.db.backends.postgresql",
-        "NAME": "news",
-        "USER": "news",
-        "PASSWORD": "news",
-        "HOST": "localhost",
-        "PORT": "5433",
-        "ATOMIC_REQUESTS": True,
-        "CONN_MAX_AGE": 600,
-    }
-}
+# local db on system
+DATABASE_URL = config("DATABASE_URL")
+DATABASES = {"default": dj_database_url.config(default=config("DATABASE_URL"))}
+
+#only db on docker container
+# DATABASES = {
+#     "default": {
+#         "ENGINE": "django.db.backends.postgresql",
+#         "NAME": "news",
+#         "USER": "news",
+#         "PASSWORD": "news",
+#         "HOST": "localhost",
+#         "PORT": "5433",
+#         "ATOMIC_REQUESTS": True,
+#         "CONN_MAX_AGE": 600,
+#     }
+# }
 
 # DATABASES = {
 #     "default": {

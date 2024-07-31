@@ -1,0 +1,4169 @@
+[
+    {
+        "model": "admin.logentry",
+        "pk": 1,
+        "fields": {
+            "action_time": "2024-04-18T09:31:47.246Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "1",
+            "object_repr": "राष्‍ट्रिय",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 2,
+        "fields": {
+            "action_time": "2024-04-18T09:32:08.242Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "1",
+            "object_repr": "news",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 3,
+        "fields": {
+            "action_time": "2024-04-18T09:32:14.587Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "1",
+            "object_repr": "Woman, child found burnt to death in Janakpurdham",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 4,
+        "fields": {
+            "action_time": "2024-04-18T09:32:39.076Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "2",
+            "object_repr": "राजनीति",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 5,
+        "fields": {
+            "action_time": "2024-04-18T09:32:58.361Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "3",
+            "object_repr": "संसद्",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 6,
+        "fields": {
+            "action_time": "2024-04-18T09:33:24.044Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "4",
+            "object_repr": "प्रदेश",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 7,
+        "fields": {
+            "action_time": "2024-04-18T09:33:57.897Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "5",
+            "object_repr": "विचार",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 8,
+        "fields": {
+            "action_time": "2024-04-18T09:34:34.536Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "6",
+            "object_repr": "प्रदेश  1",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 9,
+        "fields": {
+            "action_time": "2024-04-18T09:35:04.822Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "7",
+            "object_repr": "प्रदेश  2",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 10,
+        "fields": {
+            "action_time": "2024-04-18T09:36:58.771Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "1",
+            "object_repr": "Woman, child found burnt to death in Janakpurdham",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Featured image\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 11,
+        "fields": {
+            "action_time": "2024-04-18T09:37:22.773Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "6",
+            "object_repr": "प्रदेश  1",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Parent\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 12,
+        "fields": {
+            "action_time": "2024-04-18T09:39:26.022Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "2",
+            "object_repr": "Shakya nominated to National Assembly",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 13,
+        "fields": {
+            "action_time": "2024-04-18T09:51:40.713Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "3",
+            "object_repr": "Kin of Nepalis in Russian army protest in Kathmandu",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 14,
+        "fields": {
+            "action_time": "2024-04-18T09:53:02.334Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "4",
+            "object_repr": "Finance Minister Pun calls for urgent global action on climate change",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 15,
+        "fields": {
+            "action_time": "2024-04-18T09:56:13.583Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "5",
+            "object_repr": "As springs dry up, water shortage deepens in high altitude villages of Mallarani in Pyuthan",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 16,
+        "fields": {
+            "action_time": "2024-04-18T09:57:14.864Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "6",
+            "object_repr": "One dead, 21 injured in passenger bus accident",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 17,
+        "fields": {
+            "action_time": "2024-04-18T09:58:27.683Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "7",
+            "object_repr": "Karnali Chief Minister Kandel sworn in",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 18,
+        "fields": {
+            "action_time": "2024-04-20T14:33:40.796Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "8",
+            "object_repr": "Rising wildlife attacks forcing residents to flee villages bordering Banke National Park",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 19,
+        "fields": {
+            "action_time": "2024-04-20T14:35:04.511Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "9",
+            "object_repr": "Nepali national dies in UAE flood",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 20,
+        "fields": {
+            "action_time": "2024-04-20T14:36:13.272Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "10",
+            "object_repr": "Dilapidated Rolpa district prison housing inmates twice its capacity",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 21,
+        "fields": {
+            "action_time": "2024-04-20T14:44:31.633Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "11",
+            "object_repr": "1,063 MW Upper Arun receives World Bank nod",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 22,
+        "fields": {
+            "action_time": "2024-04-20T14:45:34.324Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "12",
+            "object_repr": "Political uncertainty clouds Nepal’s investment summit",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 23,
+        "fields": {
+            "action_time": "2024-04-20T14:45:49.315Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "12",
+            "object_repr": "12 Political uncertainty clouds Nepal’s investment summit",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Headline\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 24,
+        "fields": {
+            "action_time": "2024-04-20T14:45:58.928Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "12",
+            "object_repr": "Political uncertainty clouds Nepal’s investment summit",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Headline\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 25,
+        "fields": {
+            "action_time": "2024-04-20T14:47:18.242Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "13",
+            "object_repr": "JCB strengthens its business in Nepal",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 26,
+        "fields": {
+            "action_time": "2024-04-20T14:48:23.872Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "14",
+            "object_repr": "TIBSA opens training academy in Kamaladi",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 27,
+        "fields": {
+            "action_time": "2024-04-20T14:49:41.278Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "8",
+            "object_repr": "अर्थ",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 28,
+        "fields": {
+            "action_time": "2024-04-20T14:49:57.808Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "14",
+            "object_repr": "TIBSA opens training academy in Kamaladi",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Categories\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 29,
+        "fields": {
+            "action_time": "2024-04-20T14:50:09.574Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "13",
+            "object_repr": "JCB strengthens its business in Nepal",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Categories\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 30,
+        "fields": {
+            "action_time": "2024-04-20T14:50:21.648Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "12",
+            "object_repr": "Political uncertainty clouds Nepal’s investment summit",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Categories\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 31,
+        "fields": {
+            "action_time": "2024-04-20T14:50:33.097Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "11",
+            "object_repr": "1,063 MW Upper Arun receives World Bank nod",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Categories\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 32,
+        "fields": {
+            "action_time": "2024-04-20T14:51:36.064Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "15",
+            "object_repr": "Dhaka wants preferential trade pact. Nepal says drop ‘hidden tariffs’ first",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 33,
+        "fields": {
+            "action_time": "2024-04-20T17:57:01.883Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "15",
+            "object_repr": "Dhaka wants preferential trade pact. Nepal says drop ‘hidden tariffs’ first",
+            "action_flag": 2,
+            "change_message": "[]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 34,
+        "fields": {
+            "action_time": "2024-04-20T17:58:13.182Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "15",
+            "object_repr": "Dhaka wants preferential trade pact. Nepal says drop ‘hidden tariffs’ first",
+            "action_flag": 2,
+            "change_message": "[]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 35,
+        "fields": {
+            "action_time": "2024-04-20T17:59:54.196Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "15",
+            "object_repr": "Dhaka wants preferential trade pact. Nepal says drop ‘hidden tariffs’ first",
+            "action_flag": 2,
+            "change_message": "[]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 36,
+        "fields": {
+            "action_time": "2024-04-20T18:06:49.411Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "15",
+            "object_repr": "Dhaka wants preferential trade pact. Nepal says drop ‘hidden tariffs’ first",
+            "action_flag": 2,
+            "change_message": "[]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 37,
+        "fields": {
+            "action_time": "2024-04-20T18:07:09.104Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "15",
+            "object_repr": "Dhaka wants preferential trade pact. Nepal says drop ‘hidden tariffs’ first",
+            "action_flag": 2,
+            "change_message": "[]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 38,
+        "fields": {
+            "action_time": "2024-04-21T02:41:25.093Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "16",
+            "object_repr": "USAID’s Urja Nepal builds 23 electric vehicles charging stations",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 39,
+        "fields": {
+            "action_time": "2024-04-21T02:42:44.488Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "17",
+            "object_repr": "Nepal sets sight on multi-billion dollar LGBTIQ tourism market",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 40,
+        "fields": {
+            "action_time": "2024-04-21T02:44:34.903Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "18",
+            "object_repr": "Tootle introduces new commission rates for riders",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 41,
+        "fields": {
+            "action_time": "2024-04-21T02:45:38.482Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "19",
+            "object_repr": "Rural municipality launches motorboat service",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 42,
+        "fields": {
+            "action_time": "2024-04-21T02:47:48.603Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "20",
+            "object_repr": "Escalating Middle East crisis threatens Nepali economy",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 43,
+        "fields": {
+            "action_time": "2024-04-21T03:22:59.701Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "1",
+            "object_repr": "saving account",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 44,
+        "fields": {
+            "action_time": "2024-04-21T03:24:22.681Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "2",
+            "object_repr": "courses",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 45,
+        "fields": {
+            "action_time": "2024-04-21T03:25:58.598Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "3",
+            "object_repr": "win lottery",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 46,
+        "fields": {
+            "action_time": "2024-04-21T10:53:13.085Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "2",
+            "object_repr": "courses",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Categories\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 47,
+        "fields": {
+            "action_time": "2024-04-21T10:54:23.777Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "2",
+            "object_repr": "courses",
+            "action_flag": 2,
+            "change_message": "[]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 48,
+        "fields": {
+            "action_time": "2024-04-21T10:56:07.140Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "1",
+            "object_repr": "saving account",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Categories\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 49,
+        "fields": {
+            "action_time": "2024-04-24T05:23:28.875Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "4",
+            "object_repr": "courses",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 50,
+        "fields": {
+            "action_time": "2024-04-24T05:25:07.882Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "5",
+            "object_repr": "glamarous and caring",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 51,
+        "fields": {
+            "action_time": "2024-04-24T05:26:29.180Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "6",
+            "object_repr": "noodles",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 52,
+        "fields": {
+            "action_time": "2024-04-24T05:27:24.277Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "7",
+            "object_repr": "Data Pack",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 53,
+        "fields": {
+            "action_time": "2024-04-24T05:28:15.195Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "7",
+            "object_repr": "Data Pack 150",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Title\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 54,
+        "fields": {
+            "action_time": "2024-04-24T05:29:26.609Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "8",
+            "object_repr": "Data pack 499",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 55,
+        "fields": {
+            "action_time": "2024-04-24T05:30:40.595Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "9",
+            "object_repr": "pipes",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 56,
+        "fields": {
+            "action_time": "2024-04-24T05:33:04.133Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "10",
+            "object_repr": "mobile bank app",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 57,
+        "fields": {
+            "action_time": "2024-04-24T05:33:29.493Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "9",
+            "object_repr": "pipes",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 58,
+        "fields": {
+            "action_time": "2024-04-24T05:33:51.522Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "5",
+            "object_repr": "glamarous and caring",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 59,
+        "fields": {
+            "action_time": "2024-04-24T05:45:49.250Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "11",
+            "object_repr": "services",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 60,
+        "fields": {
+            "action_time": "2024-04-24T05:47:30.344Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "12",
+            "object_repr": "cement",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 61,
+        "fields": {
+            "action_time": "2024-04-24T05:49:11.037Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "13",
+            "object_repr": "smart offer",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 62,
+        "fields": {
+            "action_time": "2024-04-24T09:57:39.160Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "13",
+            "object_repr": "smart offer",
+            "action_flag": 2,
+            "change_message": "[]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 63,
+        "fields": {
+            "action_time": "2024-04-24T09:57:49.219Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "12",
+            "object_repr": "cement",
+            "action_flag": 2,
+            "change_message": "[]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 64,
+        "fields": {
+            "action_time": "2024-04-24T10:09:11.140Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "16",
+            "object_repr": "USAID’s Urja Nepal builds 23 electric vehicles charging stations",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Content\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 65,
+        "fields": {
+            "action_time": "2024-04-24T10:31:34.812Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "9",
+            "object_repr": "home",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 66,
+        "fields": {
+            "action_time": "2024-04-24T10:58:49.598Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "3",
+            "object_repr": "win lottery",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Categories\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 67,
+        "fields": {
+            "action_time": "2024-04-24T11:34:56.774Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "2",
+            "object_repr": "courses",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Categories\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 68,
+        "fields": {
+            "action_time": "2024-04-25T06:01:55.954Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "1",
+            "object_repr": "Popup object (1)",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 69,
+        "fields": {
+            "action_time": "2024-04-25T06:06:50.928Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "1",
+            "object_repr": "Nepatop",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 70,
+        "fields": {
+            "action_time": "2024-04-25T06:11:08.522Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "1",
+            "object_repr": "Nepatop",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 71,
+        "fields": {
+            "action_time": "2024-04-25T06:14:24.203Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "11",
+            "object_repr": "services",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Categories\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 72,
+        "fields": {
+            "action_time": "2024-04-25T06:20:05.585Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "3",
+            "object_repr": "win lottery",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Categories\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 73,
+        "fields": {
+            "action_time": "2024-04-25T06:21:05.648Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "4",
+            "object_repr": "courses",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Categories\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 74,
+        "fields": {
+            "action_time": "2024-04-25T11:14:41.211Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "13",
+            "object_repr": "smart offer",
+            "action_flag": 2,
+            "change_message": "[]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 75,
+        "fields": {
+            "action_time": "2024-04-25T11:14:49.833Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "13",
+            "object_repr": "smart offer",
+            "action_flag": 2,
+            "change_message": "[]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 76,
+        "fields": {
+            "action_time": "2024-04-27T13:40:19.724Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "20",
+            "object_repr": "Escalating Middle East crisis threatens Nepali economy",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Posted on\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 77,
+        "fields": {
+            "action_time": "2024-04-27T13:40:28.436Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "20",
+            "object_repr": "Escalating Middle East crisis threatens Nepali economy",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Posted on\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 78,
+        "fields": {
+            "action_time": "2024-04-27T13:41:57.185Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "20",
+            "object_repr": "Escalating Middle East crisis threatens Nepali economy",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 79,
+        "fields": {
+            "action_time": "2024-04-27T13:44:17.654Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "20",
+            "object_repr": "Escalating Middle East crisis threatens Nepali economy",
+            "action_flag": 2,
+            "change_message": "[]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 80,
+        "fields": {
+            "action_time": "2024-04-27T14:09:16.087Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "20",
+            "object_repr": "Escalating Middle East crisis threatens Nepali economy",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 81,
+        "fields": {
+            "action_time": "2024-04-27T14:18:46.231Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "20",
+            "object_repr": "Escalating Middle East crisis threatens Nepali economy",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 82,
+        "fields": {
+            "action_time": "2024-04-27T14:18:57.099Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "20",
+            "object_repr": "Escalating Middle East crisis threatens Nepali economy",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 83,
+        "fields": {
+            "action_time": "2024-04-27T14:19:05.839Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "20",
+            "object_repr": "Escalating Middle East crisis threatens Nepali economy",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 84,
+        "fields": {
+            "action_time": "2024-04-27T16:03:18.091Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "16",
+            "object_repr": "USAID’s Urja Nepal builds 23 electric vehicles charging stations",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 85,
+        "fields": {
+            "action_time": "2024-04-27T16:05:21.323Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "21",
+            "object_repr": "Escalating Middle East crisis",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 86,
+        "fields": {
+            "action_time": "2024-04-27T16:05:29.721Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "21",
+            "object_repr": "Escalating Middle East crisis",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 87,
+        "fields": {
+            "action_time": "2024-04-27T16:06:28.563Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "21",
+            "object_repr": "Escalating Middle East crisis",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 88,
+        "fields": {
+            "action_time": "2024-04-27T16:06:41.746Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "16",
+            "object_repr": "USAID’s Urja Nepal builds 23 electric vehicles charging stations",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 89,
+        "fields": {
+            "action_time": "2024-04-27T16:37:13.990Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "20",
+            "object_repr": "Escalating Middle East crisis threatens Nepali economy",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 90,
+        "fields": {
+            "action_time": "2024-04-27T16:37:24.147Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "20",
+            "object_repr": "Escalating Middle East crisis threatens Nepali economy",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 91,
+        "fields": {
+            "action_time": "2024-04-27T16:37:47.529Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "20",
+            "object_repr": "Escalating Middle East crisis threatens Nepali economy",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 92,
+        "fields": {
+            "action_time": "2024-04-27T16:55:04.798Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "20",
+            "object_repr": "Escalating Middle East crisis threatens Nepali economy",
+            "action_flag": 2,
+            "change_message": "[]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 93,
+        "fields": {
+            "action_time": "2024-04-27T16:55:14.943Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "20",
+            "object_repr": "Escalating Middle East crisis threatens Nepali economy",
+            "action_flag": 2,
+            "change_message": "[]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 94,
+        "fields": {
+            "action_time": "2024-04-27T16:55:27.004Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "20",
+            "object_repr": "Escalating Middle East crisis threatens Nepali economy",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 95,
+        "fields": {
+            "action_time": "2024-04-27T16:55:52.061Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "20",
+            "object_repr": "Escalating Middle East crisis threatens Nepali economy",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 96,
+        "fields": {
+            "action_time": "2024-04-27T16:55:59.545Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "20",
+            "object_repr": "Escalating Middle East crisis threatens Nepali economy",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 97,
+        "fields": {
+            "action_time": "2024-04-27T16:56:41.261Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "20",
+            "object_repr": "Escalating Middle East crisis threatens Nepali economy",
+            "action_flag": 2,
+            "change_message": "[]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 98,
+        "fields": {
+            "action_time": "2024-04-27T16:57:04.696Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "20",
+            "object_repr": "Escalating Middle East crisis threatens Nepali economy",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 99,
+        "fields": {
+            "action_time": "2024-05-06T07:43:27.510Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "16",
+            "object_repr": "USAID’s Urja Nepal builds 23 electric vehicles charging stations",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Content\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 100,
+        "fields": {
+            "action_time": "2024-05-06T07:44:05.676Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "16",
+            "object_repr": "USAID’s Urja Nepal builds 23 electric vehicles charging stations",
+            "action_flag": 2,
+            "change_message": "[]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 101,
+        "fields": {
+            "action_time": "2024-05-06T07:48:08.306Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "16",
+            "object_repr": "USAID’s Urja Nepal builds 23 electric vehicles charging stations",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Content\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 102,
+        "fields": {
+            "action_time": "2024-05-06T07:58:51.151Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "16",
+            "object_repr": "USAID’s Urja Nepal builds 23 electric vehicles charging stations Rural municipality launches motorboat service",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Headline\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 103,
+        "fields": {
+            "action_time": "2024-05-06T08:01:17.893Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "20",
+            "object_repr": "Escalating Middle East crisis threatens Nepali economy Rural municipality launches motorboat service Rural municipality launches motorboat service",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Headline\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 104,
+        "fields": {
+            "action_time": "2024-05-06T08:01:30.245Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "19",
+            "object_repr": "Rural municipality launches motorboat service Rural municipality launches motorboat service Rural municipality launches motorboat service Rural municipality launches motorboat service",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Headline\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 105,
+        "fields": {
+            "action_time": "2024-05-06T08:01:42.933Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "18",
+            "object_repr": "Tootle introduces new commission rates for riders Rural municipality launches motorboat service Rural municipality launches motorboat service Rural municipality launches motorboat service",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Headline\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 106,
+        "fields": {
+            "action_time": "2024-05-06T08:01:57.637Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "17",
+            "object_repr": "Nepal sets sight on multi-billion dollar LGBTIQ tourism market Rural municipality launches motorboat service Rural municipality launches motorboat service Rural municipality launches motorboat service",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Headline\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 107,
+        "fields": {
+            "action_time": "2024-05-06T08:02:06.932Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "15",
+            "object_repr": "Dhaka wants preferential trade pact. Nepal says drop ‘hidden tariffs’ first Rural municipality launches motorboat service Rural municipality launches motorboat service Rural municipality launches moto",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Headline\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 108,
+        "fields": {
+            "action_time": "2024-05-06T08:02:17.830Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "13",
+            "object_repr": "JCB strengthens its business in Nepal Rural municipality launches motorboat service Rural municipality launches motorboat service Rural municipality launches motorboat service",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Headline\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 109,
+        "fields": {
+            "action_time": "2024-05-06T08:02:27.936Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "11",
+            "object_repr": "1,063 MW Upper Arun receives World Bank nod Rural municipality launches motorboat service Rural municipality launches motorboat service Rural municipality launches motorboat service",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Headline\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 110,
+        "fields": {
+            "action_time": "2024-05-06T08:02:37.903Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "7",
+            "object_repr": "Karnali Chief Minister Kandel sworn in Rural municipality launches motorboat service Rural municipality launches motorboat service Rural municipality launches motorboat service",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Headline\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 111,
+        "fields": {
+            "action_time": "2024-05-06T08:02:54.770Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "2",
+            "object_repr": "Shakya nominated to National Assembly Rural municipality launches motorboat service Rural municipality launches motorboat service Rural municipality launches motorboat service",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Headline\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 112,
+        "fields": {
+            "action_time": "2024-05-06T08:03:04.957Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "1",
+            "object_repr": "Woman, child found burnt to death in Janakpurdham Rural municipality launches motorboat service Rural municipality launches motorboat service Rural municipality launches motorboat service",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Headline\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 113,
+        "fields": {
+            "action_time": "2024-05-06T08:10:37.700Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "7",
+            "object_repr": "प्रदेश   राष्‍ट्रियराष्‍ट्रियराष्‍ट्रिय राष्‍ट्रिय  2",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 114,
+        "fields": {
+            "action_time": "2024-05-06T08:12:26.547Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "7",
+            "object_repr": "प्रदेश   राष्‍ट्रिय राष्‍ट्रिय राष्‍ट्रिय राष्‍ट्रिय  2",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 115,
+        "fields": {
+            "action_time": "2024-05-06T08:12:48.028Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "7",
+            "object_repr": "प्रदेश   राष्‍ट्रिय राष्‍ट्रिय राष्‍ट्रिय राष्‍ट्रिय  2",
+            "action_flag": 2,
+            "change_message": "[]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 116,
+        "fields": {
+            "action_time": "2024-05-06T08:14:36.819Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "7",
+            "object_repr": "प्रदेशराष्‍ट्रियराष्‍ट्रियराष्‍ट्रियराष्‍ट्रिय  2",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 117,
+        "fields": {
+            "action_time": "2024-05-06T08:15:07.522Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "7",
+            "object_repr": "प्रदेशराष्‍ट्रियराष्‍ट्रियराष्‍ट्रियराष्‍ट्रियप्रदेशराष्‍ट्रियराष्‍ट्रियराष्‍ट्रियराष्‍ट्रिय 2",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 118,
+        "fields": {
+            "action_time": "2024-05-06T08:15:34.645Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "7",
+            "object_repr": "प्रदेशराष्‍ट्रियराष्‍ट्रियराष्‍ट्रियराष्‍ट्रियप्रदेशराष्‍ट्रियराष्‍ट्रियराष्‍ट्रियराष्‍ट्रियप्रदेश 2",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 119,
+        "fields": {
+            "action_time": "2024-05-06T08:15:53.963Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "7",
+            "object_repr": "प्रदेशराष्‍ट्रियराष्‍ट्रियराष्‍ट्रियराष्‍ट्रियप्रदेशराष्‍ट्रियराष्‍ट्रियराष्‍ट्रियराष्‍ट्रियप्रदेशप2",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 120,
+        "fields": {
+            "action_time": "2024-05-06T08:21:56.686Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "9",
+            "object_repr": "Nepali national dies in UAE flood A top official at Investment Board Nepal said that among the projects, 21 are ready-to-go projects that have already secured a government nod. These projects are read",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Headline\", \"Content\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 121,
+        "fields": {
+            "action_time": "2024-05-06T08:22:29.344Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "9",
+            "object_repr": "Nepali national dies in UAE flood",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Headline\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 122,
+        "fields": {
+            "action_time": "2024-05-06T08:23:01.122Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "14",
+            "object_repr": "TIBSA opens training academy in Kamaladi",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Content\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 123,
+        "fields": {
+            "action_time": "2024-05-06T08:34:46.493Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "3",
+            "object_repr": "Kin of Nepalis in Russian army protest in Kathmandu",
+            "action_flag": 2,
+            "change_message": "[]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 124,
+        "fields": {
+            "action_time": "2024-05-06T08:35:22.771Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "12",
+            "object_repr": "Political uncertainty clouds Nepal’s investment summit",
+            "action_flag": 2,
+            "change_message": "[]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 125,
+        "fields": {
+            "action_time": "2024-05-06T08:41:45.052Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "11",
+            "object_repr": "1,063 MW Upper Arun receives World Bank nod Rural municipality launches motorboat service Rural municipality launches motorboat service Rural municipality launches motorboat service",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Posted on\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 126,
+        "fields": {
+            "action_time": "2024-05-06T08:43:00.817Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "11",
+            "object_repr": "1,063 MW Upper Arun receives World Bank nod Rural municipality launches motorboat service Rural municipality launches motorboat service Rural municipality launches motorboat service",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Posted on\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 127,
+        "fields": {
+            "action_time": "2024-05-06T08:43:31.847Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "12",
+            "object_repr": "Political uncertainty clouds Nepal’s investment summit",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Posted on\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 128,
+        "fields": {
+            "action_time": "2024-05-06T08:58:46.476Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "12",
+            "object_repr": "Political uncertainty clouds Nepal’s investment summit",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Posted on\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 129,
+        "fields": {
+            "action_time": "2024-05-06T08:59:57.853Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "12",
+            "object_repr": "Political uncertainty clouds Nepal’s investment summit",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Posted on\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 130,
+        "fields": {
+            "action_time": "2024-05-06T10:16:44.345Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "7",
+            "object_repr": "प्रदेश 2",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 131,
+        "fields": {
+            "action_time": "2024-05-06T10:17:30.749Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "7",
+            "object_repr": "प्रदेश-2",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 132,
+        "fields": {
+            "action_time": "2024-05-06T10:17:41.373Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "6",
+            "object_repr": "प्रदेश-1",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 133,
+        "fields": {
+            "action_time": "2024-05-06T10:18:44.304Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "6",
+            "object_repr": "प्रदेश 1",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 134,
+        "fields": {
+            "action_time": "2024-05-06T10:19:10.624Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "7",
+            "object_repr": "प्रदेश 2",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 135,
+        "fields": {
+            "action_time": "2024-05-06T10:20:28.973Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "12",
+            "object_repr": "Political uncertainty clouds Nepal’s investment summit",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Posted on\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 136,
+        "fields": {
+            "action_time": "2024-05-06T10:28:38.342Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "10",
+            "object_repr": "सुदूरपश्‍चिम प्रदेश",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 137,
+        "fields": {
+            "action_time": "2024-05-06T11:12:22.652Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "12",
+            "object_repr": "Political uncertainty clouds Nepal’s investment summit",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Posted on\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 138,
+        "fields": {
+            "action_time": "2024-05-06T11:16:56.376Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "12",
+            "object_repr": "Political uncertainty clouds Nepal’s investment summit",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Posted on\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 139,
+        "fields": {
+            "action_time": "2024-05-06T11:20:27.172Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "12",
+            "object_repr": "Political uncertainty clouds Nepal’s investment summit",
+            "action_flag": 2,
+            "change_message": "[]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 140,
+        "fields": {
+            "action_time": "2024-05-06T11:20:40.060Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "12",
+            "object_repr": "Political uncertainty clouds Nepal’s investment summit",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Posted on\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 141,
+        "fields": {
+            "action_time": "2024-05-06T11:28:55.534Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "12",
+            "object_repr": "Political uncertainty clouds Nepal’s investment summit",
+            "action_flag": 2,
+            "change_message": "[]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 142,
+        "fields": {
+            "action_time": "2024-05-06T11:32:42.599Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "11",
+            "object_repr": "1,063 MW Upper Arun receives World Bank nod Rural municipality launches motorboat service Rural municipality launches motorboat service Rural municipality launches motorboat service",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Posted on\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 143,
+        "fields": {
+            "action_time": "2024-05-06T11:35:31.333Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "4",
+            "object_repr": "Finance Minister Pun calls for urgent global action on climate change",
+            "action_flag": 2,
+            "change_message": "[]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 144,
+        "fields": {
+            "action_time": "2024-05-06T11:37:44.994Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "4",
+            "object_repr": "Finance Minister Pun calls for urgent global action on climate change",
+            "action_flag": 2,
+            "change_message": "[]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 145,
+        "fields": {
+            "action_time": "2024-05-06T11:37:54.974Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "4",
+            "object_repr": "Finance Minister Pun calls for urgent global action on climate change",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Posted on\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 146,
+        "fields": {
+            "action_time": "2024-05-06T11:38:25.752Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "11",
+            "object_repr": "1,063 MW Upper Arun receives World Bank nod Rural municipality launches motorboat service Rural municipality launches motorboat service Rural municipality launches motorboat service",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Posted on\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 147,
+        "fields": {
+            "action_time": "2024-05-07T06:40:10.930Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "14",
+            "object_repr": "TIBSA opens training academy in Kamaladi",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Posted on\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 148,
+        "fields": {
+            "action_time": "2024-05-07T06:46:36.982Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "13",
+            "object_repr": "JCB strengthens its business in Nepal",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Headline\", \"Posted on\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 149,
+        "fields": {
+            "action_time": "2024-05-07T06:47:00.050Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "1",
+            "object_repr": "Woman, child found burnt to death in Janakpurdham",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Headline\", \"Posted on\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 150,
+        "fields": {
+            "action_time": "2024-05-07T06:47:46.382Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "15",
+            "object_repr": "Dhaka wants preferential trade pact.",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Headline\", \"Posted on\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 151,
+        "fields": {
+            "action_time": "2024-05-07T06:48:20.254Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "17",
+            "object_repr": "Nepal sets sight on multi-billion dollar LGBTIQ tourism market",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Headline\", \"Posted on\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 152,
+        "fields": {
+            "action_time": "2024-05-07T06:48:45.147Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "18",
+            "object_repr": "Tootle introduces new commission rates for riders",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Headline\", \"Posted on\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 153,
+        "fields": {
+            "action_time": "2024-05-07T06:49:12.807Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "20",
+            "object_repr": "Escalating Middle East crisis threatens Nepali economy",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Headline\", \"Posted on\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 154,
+        "fields": {
+            "action_time": "2024-05-07T06:49:47.767Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "19",
+            "object_repr": "Rural municipality launches motorboat service",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Headline\", \"Posted on\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 155,
+        "fields": {
+            "action_time": "2024-05-07T06:50:03.751Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "16",
+            "object_repr": "USAID’s Urja Nepal builds 23 electric vehicles charging stations Rural municipality launches motorboat service",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Posted on\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 156,
+        "fields": {
+            "action_time": "2024-05-07T06:50:46.376Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "16",
+            "object_repr": "USAID’s Urja Nepal builds 23 electric vehicles charging stations Rural municipality launches motorboat service",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Posted on\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 157,
+        "fields": {
+            "action_time": "2024-05-07T06:51:08.002Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "16",
+            "object_repr": "USAID’s Urja Nepal builds 23 electric vehicles charging stations Rural municipality launches motorboat service",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Posted on\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 158,
+        "fields": {
+            "action_time": "2024-05-07T06:51:31.309Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "16",
+            "object_repr": "USAID’s Urja Nepal builds 23 electric vehicles charging stations Rural municipality launches motorboat service",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Posted on\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 159,
+        "fields": {
+            "action_time": "2024-05-07T07:09:12.634Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "16",
+            "object_repr": "USAID’s Urja Nepal builds 23 electric vehicles charging stations Rural municipality launches motorboat service",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Posted on\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 160,
+        "fields": {
+            "action_time": "2024-05-07T07:32:11.156Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "18",
+            "object_repr": "Tootle introduces new commission rates for riders",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Posted on\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 161,
+        "fields": {
+            "action_time": "2024-05-07T07:32:44.593Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "17",
+            "object_repr": "Nepal sets sight on multi-billion dollar LGBTIQ tourism market",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Posted on\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 162,
+        "fields": {
+            "action_time": "2024-05-07T08:18:31.784Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "22",
+            "object_repr": "jpt 123            HHKJJKHH  f r fffrf r",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 163,
+        "fields": {
+            "action_time": "2024-05-07T08:18:49.587Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "22",
+            "object_repr": "jpt 123            HHKJJKHH  f r fffrf r",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Posted on\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 164,
+        "fields": {
+            "action_time": "2024-05-07T08:19:08.962Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "22",
+            "object_repr": "jpt 123            HHKJJKHH  f r fffrf r",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 165,
+        "fields": {
+            "action_time": "2024-05-07T08:19:21.770Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "22",
+            "object_repr": "jpt 123            HHKJJKHH  f r fffrf r",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 166,
+        "fields": {
+            "action_time": "2024-05-07T08:20:08.704Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "23",
+            "object_repr": "1234",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 167,
+        "fields": {
+            "action_time": "2024-05-07T08:20:34.028Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "24",
+            "object_repr": "567",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 168,
+        "fields": {
+            "action_time": "2024-05-07T08:21:41.986Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "24",
+            "object_repr": "567",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Content\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 169,
+        "fields": {
+            "action_time": "2024-05-07T08:22:05.803Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "24",
+            "object_repr": "567२५ वैशाख २०८१, मंगलवार\r\nवैशाख कृष्ण चतुर्दशी\r\nपञ्चाङ्ग: आयुष्मान शकुनि अश्विनी\r\nदिउँसोको ०१ : १४\r\nMay 07, 2024",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Headline\", \"Content\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 170,
+        "fields": {
+            "action_time": "2024-05-07T08:23:23.119Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "25",
+            "object_repr": "jpt",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 171,
+        "fields": {
+            "action_time": "2024-05-07T08:23:43.023Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "26",
+            "object_repr": "jpt2",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 172,
+        "fields": {
+            "action_time": "2024-05-07T08:24:56.735Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "27",
+            "object_repr": "jpt4",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 173,
+        "fields": {
+            "action_time": "2024-05-07T08:31:37.051Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "28",
+            "object_repr": "mad",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 174,
+        "fields": {
+            "action_time": "2024-05-07T08:34:11.892Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "28",
+            "object_repr": "mad",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 175,
+        "fields": {
+            "action_time": "2024-05-07T08:34:11.899Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "27",
+            "object_repr": "jpt4",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 176,
+        "fields": {
+            "action_time": "2024-05-07T08:34:11.903Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "25",
+            "object_repr": "jpt",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 177,
+        "fields": {
+            "action_time": "2024-05-07T08:34:11.908Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "24",
+            "object_repr": "567२५ वैशाख २०८१, मंगलवार\r\nवैशाख कृष्ण चतुर्दशी\r\nपञ्चाङ्ग: आयुष्मान शकुनि अश्विनी\r\nदिउँसोको ०१ : १४\r\nMay 07, 2024",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 178,
+        "fields": {
+            "action_time": "2024-05-07T08:34:11.913Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "23",
+            "object_repr": "1234",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 179,
+        "fields": {
+            "action_time": "2024-05-07T08:34:11.917Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "22",
+            "object_repr": "jpt 123            HHKJJKHH  f r fffrf r",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 180,
+        "fields": {
+            "action_time": "2024-05-07T08:34:43.778Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "18",
+            "object_repr": "Tootle introduces new commission rates for riders",
+            "action_flag": 2,
+            "change_message": "[]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 181,
+        "fields": {
+            "action_time": "2024-05-07T08:43:36.837Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "17",
+            "object_repr": "Nepal sets sight on multi-billion dollar LGBTIQ tourism market",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Content\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 182,
+        "fields": {
+            "action_time": "2024-05-07T08:47:00.593Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "2",
+            "object_repr": "Shakya nominated to National Assembly",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Headline\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 183,
+        "fields": {
+            "action_time": "2024-05-07T08:47:39.539Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "4",
+            "object_repr": "Finance Minister Pun calls for urgent global action on climate change",
+            "action_flag": 2,
+            "change_message": "[]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 184,
+        "fields": {
+            "action_time": "2024-05-07T09:02:01.921Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "7",
+            "object_repr": "Karnali Chief Minister Kandel sworn in Rural municipality launches motorboat service",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Headline\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 185,
+        "fields": {
+            "action_time": "2024-05-09T07:52:48.893Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "11",
+            "object_repr": "jpt category",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 186,
+        "fields": {
+            "action_time": "2024-05-09T07:55:18.925Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "8",
+            "object_repr": "अर्थ",
+            "action_flag": 2,
+            "change_message": "[]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 187,
+        "fields": {
+            "action_time": "2024-05-09T07:56:06.475Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "8",
+            "object_repr": "अर्थ",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Order\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 188,
+        "fields": {
+            "action_time": "2024-05-09T07:56:51.312Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "1",
+            "object_repr": "राष्‍ट्रिय",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Order\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 189,
+        "fields": {
+            "action_time": "2024-05-09T07:57:00.028Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "2",
+            "object_repr": "राजनीति",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Order\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 190,
+        "fields": {
+            "action_time": "2024-05-09T07:57:10.426Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "3",
+            "object_repr": "संसद्",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Order\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 191,
+        "fields": {
+            "action_time": "2024-05-09T07:57:20.258Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "8",
+            "object_repr": "अर्थ",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Order\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 192,
+        "fields": {
+            "action_time": "2024-05-09T07:57:27.094Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "4",
+            "object_repr": "प्रदेश",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Order\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 193,
+        "fields": {
+            "action_time": "2024-05-09T08:09:11.132Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "5",
+            "object_repr": "विचार",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Order\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 194,
+        "fields": {
+            "action_time": "2024-05-09T08:11:23.807Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "1",
+            "object_repr": "राष्‍ट्रिय",
+            "action_flag": 2,
+            "change_message": "[{\"added\": {\"name\": \"category\", \"object\": \"game\"}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 195,
+        "fields": {
+            "action_time": "2024-05-09T08:12:41.130Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "1",
+            "object_repr": "राष्‍ट्रिय",
+            "action_flag": 2,
+            "change_message": "[{\"deleted\": {\"name\": \"category\", \"object\": \"game\"}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 196,
+        "fields": {
+            "action_time": "2024-05-09T08:13:02.344Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "11",
+            "object_repr": "jpt category",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 197,
+        "fields": {
+            "action_time": "2024-05-09T08:14:42.047Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "1",
+            "object_repr": "राष्‍ट्रिय",
+            "action_flag": 2,
+            "change_message": "[]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 198,
+        "fields": {
+            "action_time": "2024-05-09T08:25:01.657Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "13",
+            "object_repr": "haha",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 199,
+        "fields": {
+            "action_time": "2024-05-09T08:25:15.878Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "13",
+            "object_repr": "haha",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 200,
+        "fields": {
+            "action_time": "2024-05-09T08:26:16.717Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "14",
+            "object_repr": "haha",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 201,
+        "fields": {
+            "action_time": "2024-05-09T08:26:48.510Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "14",
+            "object_repr": "haha",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 202,
+        "fields": {
+            "action_time": "2024-05-09T08:30:22.808Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "15",
+            "object_repr": "haha",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 203,
+        "fields": {
+            "action_time": "2024-05-09T08:30:27.989Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "16",
+            "object_repr": "haha1",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 204,
+        "fields": {
+            "action_time": "2024-05-09T08:30:32.253Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "17",
+            "object_repr": "haha2",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 205,
+        "fields": {
+            "action_time": "2024-05-09T08:30:35.988Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "18",
+            "object_repr": "haha3",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 206,
+        "fields": {
+            "action_time": "2024-05-09T08:30:40.848Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "19",
+            "object_repr": "haha4",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 207,
+        "fields": {
+            "action_time": "2024-05-09T08:46:45.619Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "19",
+            "object_repr": "haha4",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 208,
+        "fields": {
+            "action_time": "2024-05-09T08:46:45.623Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "18",
+            "object_repr": "haha3",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 209,
+        "fields": {
+            "action_time": "2024-05-09T08:46:45.626Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "17",
+            "object_repr": "haha2",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 210,
+        "fields": {
+            "action_time": "2024-05-09T08:46:45.628Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "16",
+            "object_repr": "haha1",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 211,
+        "fields": {
+            "action_time": "2024-05-09T08:46:45.630Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "15",
+            "object_repr": "haha",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 212,
+        "fields": {
+            "action_time": "2024-07-01T11:45:01.810Z",
+            "user": 1,
+            "content_type": 4,
+            "object_id": "1",
+            "object_repr": "sudip",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"password\"]}}]"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 1,
+        "fields": {
+            "name": "Can add log entry",
+            "content_type": 1,
+            "codename": "add_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 2,
+        "fields": {
+            "name": "Can change log entry",
+            "content_type": 1,
+            "codename": "change_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 3,
+        "fields": {
+            "name": "Can delete log entry",
+            "content_type": 1,
+            "codename": "delete_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 4,
+        "fields": {
+            "name": "Can view log entry",
+            "content_type": 1,
+            "codename": "view_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 5,
+        "fields": {
+            "name": "Can add permission",
+            "content_type": 2,
+            "codename": "add_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 6,
+        "fields": {
+            "name": "Can change permission",
+            "content_type": 2,
+            "codename": "change_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 7,
+        "fields": {
+            "name": "Can delete permission",
+            "content_type": 2,
+            "codename": "delete_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 8,
+        "fields": {
+            "name": "Can view permission",
+            "content_type": 2,
+            "codename": "view_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 9,
+        "fields": {
+            "name": "Can add group",
+            "content_type": 3,
+            "codename": "add_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 10,
+        "fields": {
+            "name": "Can change group",
+            "content_type": 3,
+            "codename": "change_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 11,
+        "fields": {
+            "name": "Can delete group",
+            "content_type": 3,
+            "codename": "delete_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 12,
+        "fields": {
+            "name": "Can view group",
+            "content_type": 3,
+            "codename": "view_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 13,
+        "fields": {
+            "name": "Can add user",
+            "content_type": 4,
+            "codename": "add_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 14,
+        "fields": {
+            "name": "Can change user",
+            "content_type": 4,
+            "codename": "change_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 15,
+        "fields": {
+            "name": "Can delete user",
+            "content_type": 4,
+            "codename": "delete_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 16,
+        "fields": {
+            "name": "Can view user",
+            "content_type": 4,
+            "codename": "view_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 17,
+        "fields": {
+            "name": "Can add content type",
+            "content_type": 5,
+            "codename": "add_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 18,
+        "fields": {
+            "name": "Can change content type",
+            "content_type": 5,
+            "codename": "change_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 19,
+        "fields": {
+            "name": "Can delete content type",
+            "content_type": 5,
+            "codename": "delete_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 20,
+        "fields": {
+            "name": "Can view content type",
+            "content_type": 5,
+            "codename": "view_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 21,
+        "fields": {
+            "name": "Can add session",
+            "content_type": 6,
+            "codename": "add_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 22,
+        "fields": {
+            "name": "Can change session",
+            "content_type": 6,
+            "codename": "change_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 23,
+        "fields": {
+            "name": "Can delete session",
+            "content_type": 6,
+            "codename": "delete_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 24,
+        "fields": {
+            "name": "Can view session",
+            "content_type": 6,
+            "codename": "view_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 25,
+        "fields": {
+            "name": "Can add ad",
+            "content_type": 7,
+            "codename": "add_ad"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 26,
+        "fields": {
+            "name": "Can change ad",
+            "content_type": 7,
+            "codename": "change_ad"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 27,
+        "fields": {
+            "name": "Can delete ad",
+            "content_type": 7,
+            "codename": "delete_ad"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 28,
+        "fields": {
+            "name": "Can view ad",
+            "content_type": 7,
+            "codename": "view_ad"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 29,
+        "fields": {
+            "name": "Can add Tag",
+            "content_type": 8,
+            "codename": "add_tags"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 30,
+        "fields": {
+            "name": "Can change Tag",
+            "content_type": 8,
+            "codename": "change_tags"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 31,
+        "fields": {
+            "name": "Can delete Tag",
+            "content_type": 8,
+            "codename": "delete_tags"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 32,
+        "fields": {
+            "name": "Can view Tag",
+            "content_type": 8,
+            "codename": "view_tags"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 33,
+        "fields": {
+            "name": "Can add category",
+            "content_type": 9,
+            "codename": "add_category"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 34,
+        "fields": {
+            "name": "Can change category",
+            "content_type": 9,
+            "codename": "change_category"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 35,
+        "fields": {
+            "name": "Can delete category",
+            "content_type": 9,
+            "codename": "delete_category"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 36,
+        "fields": {
+            "name": "Can view category",
+            "content_type": 9,
+            "codename": "view_category"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 37,
+        "fields": {
+            "name": "Can add post",
+            "content_type": 10,
+            "codename": "add_post"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 38,
+        "fields": {
+            "name": "Can change post",
+            "content_type": 10,
+            "codename": "change_post"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 39,
+        "fields": {
+            "name": "Can delete post",
+            "content_type": 10,
+            "codename": "delete_post"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 40,
+        "fields": {
+            "name": "Can view post",
+            "content_type": 10,
+            "codename": "view_post"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 41,
+        "fields": {
+            "name": "Can add popup",
+            "content_type": 11,
+            "codename": "add_popup"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 42,
+        "fields": {
+            "name": "Can change popup",
+            "content_type": 11,
+            "codename": "change_popup"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 43,
+        "fields": {
+            "name": "Can delete popup",
+            "content_type": 11,
+            "codename": "delete_popup"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 44,
+        "fields": {
+            "name": "Can view popup",
+            "content_type": 11,
+            "codename": "view_popup"
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 1,
+        "fields": {
+            "password": "pbkdf2_sha256$720000$KmclGF8IxKuZoJyUcr7MiR$BhGyg21RXVEeJYhQIw7QbswCH0hjHnb2hIHNNGEEyOU=",
+            "last_login": "2024-07-01T11:44:27.558Z",
+            "is_superuser": true,
+            "username": "sudip",
+            "first_name": "",
+            "last_name": "",
+            "email": "sudip@gmail.com",
+            "is_staff": true,
+            "is_active": true,
+            "date_joined": "2024-04-18T09:25:55.659Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 1,
+        "fields": {
+            "app_label": "admin",
+            "model": "logentry"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 2,
+        "fields": {
+            "app_label": "auth",
+            "model": "permission"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 3,
+        "fields": {
+            "app_label": "auth",
+            "model": "group"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 4,
+        "fields": {
+            "app_label": "auth",
+            "model": "user"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 5,
+        "fields": {
+            "app_label": "contenttypes",
+            "model": "contenttype"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 6,
+        "fields": {
+            "app_label": "sessions",
+            "model": "session"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 7,
+        "fields": {
+            "app_label": "baseapp",
+            "model": "ad"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 8,
+        "fields": {
+            "app_label": "baseapp",
+            "model": "tags"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 9,
+        "fields": {
+            "app_label": "baseapp",
+            "model": "category"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 10,
+        "fields": {
+            "app_label": "baseapp",
+            "model": "post"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 11,
+        "fields": {
+            "app_label": "baseapp",
+            "model": "popup"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "00veor95h9gk45tqbwbxixom0h5yen37",
+        "fields": {
+            "session_data": ".eJxVjEEOwiAQRe_C2hChZGBcuvcMZAYGqRqalHbVeHdt0oVu_3vvbyrSutS4dpnjmNVFGXX63ZjSU9oO8oPafdJpass8st4VfdCub1OW1_Vw_w4q9fqtETijz8ggAwdvKQEEcCWhC4XtmYp3NpE3UgqjJ_DspFiD4IbABOr9AfZDOFg:1s3vY2:XVmXO95EV-lxxwl29sq2HHmfV-db8zkJDf-o9a0EAP4",
+            "expire_date": "2024-05-20T10:26:18.853Z"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "3odhm3x1ieq89wxxh499uw9xleh6zomt",
+        "fields": {
+            "session_data": ".eJxVjEEOwiAQRe_C2hChZGBcuvcMZAYGqRqalHbVeHdt0oVu_3vvbyrSutS4dpnjmNVFGXX63ZjSU9oO8oPafdJpass8st4VfdCub1OW1_Vw_w4q9fqtETijz8ggAwdvKQEEcCWhC4XtmYp3NpE3UgqjJ_DspFiD4IbABOr9AfZDOFg:1s511T:WWjkBrTNN4uq0JTQVi7up9LK9aSRE8QpN5CIRf6MBlA",
+            "expire_date": "2024-05-23T10:29:11.578Z"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "4n6d40g9ck167rna38mr88vt4ack4wkc",
+        "fields": {
+            "session_data": ".eJxVjEEOwiAQRe_C2hChZGBcuvcMZAYGqRqalHbVeHdt0oVu_3vvbyrSutS4dpnjmNVFGXX63ZjSU9oO8oPafdJpass8st4VfdCub1OW1_Vw_w4q9fqtETijz8ggAwdvKQEEcCWhC4XtmYp3NpE3UgqjJ_DspFiD4IbABOr9AfZDOFg:1s5MPb:AX_uEymPBqtmY7FjhPSYb_46tONXLhGznIemnE77QYk",
+            "expire_date": "2024-05-24T09:19:31.331Z"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "5cuyv7xj9j7z9xpwl9vnd1hpwuuo5jvj",
+        "fields": {
+            "session_data": ".eJxVjEEOwiAQRe_C2hChZGBcuvcMZAYGqRqalHbVeHdt0oVu_3vvbyrSutS4dpnjmNVFGXX63ZjSU9oO8oPafdJpass8st4VfdCub1OW1_Vw_w4q9fqtETijz8ggAwdvKQEEcCWhC4XtmYp3NpE3UgqjJ_DspFiD4IbABOr9AfZDOFg:1ryQ5q:7t1EBDZadvZTJKlUYD2F4fSK_cYdSAVzu7i0gOoAiwQ",
+            "expire_date": "2024-05-05T05:50:26.552Z"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "7ihaadur8d03xd1az23vt70aatw4u8pk",
+        "fields": {
+            "session_data": ".eJxVjMEKwyAQRP_FcxF3o6I99t5vEFfXmrYYiMkp9N-bQA7taWDem9lEiOtSw9p5DmMWVwHi8ttRTC9uB8jP2B6TTFNb5pHkociTdnmfMr9vp_t3UGOv-9pr1g6SKoMDTeiBECEiG59AcQGC5NAP0VDZw-ZEaKzTxKByVtaKzxfJZDdc:1sOFSw:rYRNtsz1-5LV8Dk91O8rqIdY3j24mBvDQ1jcDXyDRiY",
+            "expire_date": "2024-07-15T11:45:02.409Z"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "bmbwr700cv45bxsqj8ww87i9xhyvz41i",
+        "fields": {
+            "session_data": ".eJxVjEEOwiAQRe_C2hChZGBcuvcMZAYGqRqalHbVeHdt0oVu_3vvbyrSutS4dpnjmNVFGXX63ZjSU9oO8oPafdJpass8st4VfdCub1OW1_Vw_w4q9fqtETijz8ggAwdvKQEEcCWhC4XtmYp3NpE3UgqjJ_DspFiD4IbABOr9AfZDOFg:1rySla:ojkxYr3QiX3xnPn0vN3CJqStDBJZ9O7gIg1Y6f1kHFE",
+            "expire_date": "2024-05-05T08:41:42.123Z"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "k5zr5urhod6t5za7l56o7c286brwbki7",
+        "fields": {
+            "session_data": ".eJxVjEEOwiAQRe_C2hChZGBcuvcMZAYGqRqalHbVeHdt0oVu_3vvbyrSutS4dpnjmNVFGXX63ZjSU9oO8oPafdJpass8st4VfdCub1OW1_Vw_w4q9fqtETijz8ggAwdvKQEEcCWhC4XtmYp3NpE3UgqjJ_DspFiD4IbABOr9AfZDOFg:1s3sz2:zpIS8V7XmS1mpFMhGcBhZUxyuLGSMLfSNbeWtG9TWA0",
+            "expire_date": "2024-05-20T07:42:00.075Z"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "o7p85d01e72u7s5d5g476udqi1w5cglv",
+        "fields": {
+            "session_data": ".eJxVjEEOwiAQRe_C2hChZGBcuvcMZAYGqRqalHbVeHdt0oVu_3vvbyrSutS4dpnjmNVFGXX63ZjSU9oO8oPafdJpass8st4VfdCub1OW1_Vw_w4q9fqtETijz8ggAwdvKQEEcCWhC4XtmYp3NpE3UgqjJ_DspFiD4IbABOr9AfZDOFg:1ryTQI:vMAcyeJ8nw9Eee7nXTVC8S71pPn2TKWKfF-Lhtk0ieo",
+            "expire_date": "2024-05-05T09:23:46.222Z"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "o90rpulmnpq8es90jhpv8rgqgxphff4d",
+        "fields": {
+            "session_data": ".eJxVjEEOwiAQRe_C2hChZGBcuvcMZAYGqRqalHbVeHdt0oVu_3vvbyrSutS4dpnjmNVFGXX63ZjSU9oO8oPafdJpass8st4VfdCub1OW1_Vw_w4q9fqtETijz8ggAwdvKQEEcCWhC4XtmYp3NpE3UgqjJ_DspFiD4IbABOr9AfZDOFg:1s4xK5:RetT61Jb0PloSMKbQzU-49VTJYhRKUPVae_R3YlP1rY",
+            "expire_date": "2024-05-23T06:32:09.611Z"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "p32dwcl2votwsuk2pm7zjwp03guzx4d1",
+        "fields": {
+            "session_data": ".eJxVjEEOwiAQRe_C2hChZGBcuvcMZAYGqRqalHbVeHdt0oVu_3vvbyrSutS4dpnjmNVFGXX63ZjSU9oO8oPafdJpass8st4VfdCub1OW1_Vw_w4q9fqtETijz8ggAwdvKQEEcCWhC4XtmYp3NpE3UgqjJ_DspFiD4IbABOr9AfZDOFg:1rzZN8:-BON7JNxm7WFVNoJZ-JZJ1OseRyRBpcFaBCCfNS4NIg",
+            "expire_date": "2024-05-08T09:57:02.665Z"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "pk5dnhu8vegsikahdz4etg0xfxon73hj",
+        "fields": {
+            "session_data": ".eJxVjEEOwiAQRe_C2hChZGBcuvcMZAYGqRqalHbVeHdt0oVu_3vvbyrSutS4dpnjmNVFGXX63ZjSU9oO8oPafdJpass8st4VfdCub1OW1_Vw_w4q9fqtETijz8ggAwdvKQEEcCWhC4XtmYp3NpE3UgqjJ_DspFiD4IbABOr9AfZDOFg:1rxO2d:-nqIzWHYi4pnIpF_dQCR0GzK_ivHtbeV4u71e0GnQjU",
+            "expire_date": "2024-05-02T09:26:51.375Z"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "s0onlyw5u5hx0jypptojtn4qol00yasp",
+        "fields": {
+            "session_data": ".eJxVjEEOwiAQRe_C2hChZGBcuvcMZAYGqRqalHbVeHdt0oVu_3vvbyrSutS4dpnjmNVFGXX63ZjSU9oO8oPafdJpass8st4VfdCub1OW1_Vw_w4q9fqtETijz8ggAwdvKQEEcCWhC4XtmYp3NpE3UgqjJ_DspFiD4IbABOr9AfZDOFg:1s0iFR:NfQAa20kU0QWBqZAZyG7nuw_Y3l2BU74sMk-PtJRHRU",
+            "expire_date": "2024-05-11T13:37:49.993Z"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "tmgelbf95tx45exxz00br7a4o73joxf5",
+        "fields": {
+            "session_data": ".eJxVjEEOwiAQRe_C2hChZGBcuvcMZAYGqRqalHbVeHdt0oVu_3vvbyrSutS4dpnjmNVFGXX63ZjSU9oO8oPafdJpass8st4VfdCub1OW1_Vw_w4q9fqtETijz8ggAwdvKQEEcCWhC4XtmYp3NpE3UgqjJ_DspFiD4IbABOr9AfZDOFg:1s51Ag:AjM-n4R-DhVSHQD3eMi2zDe79s_bjt3xMarfj-lkD6Y",
+            "expire_date": "2024-05-23T10:38:42.647Z"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "uxb45cv4b0yhweskkpeiewl25e211oe7",
+        "fields": {
+            "session_data": ".eJxVjEEOwiAQRe_C2hChZGBcuvcMZAYGqRqalHbVeHdt0oVu_3vvbyrSutS4dpnjmNVFGXX63ZjSU9oO8oPafdJpass8st4VfdCub1OW1_Vw_w4q9fqtETijz8ggAwdvKQEEcCWhC4XtmYp3NpE3UgqjJ_DspFiD4IbABOr9AfZDOFg:1rzV4G:4lNYlTbfPioffvxWN2QglpoRQmE4E5en__7n_BjzYN4",
+            "expire_date": "2024-05-08T05:21:16.250Z"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "xfi60mic8gnk8mby05n7v1fk05l5cf2h",
+        "fields": {
+            "session_data": ".eJxVjEEOwiAQRe_C2hChZGBcuvcMZAYGqRqalHbVeHdt0oVu_3vvbyrSutS4dpnjmNVFGXX63ZjSU9oO8oPafdJpass8st4VfdCub1OW1_Vw_w4q9fqtETijz8ggAwdvKQEEcCWhC4XtmYp3NpE3UgqjJ_DspFiD4IbABOr9AfZDOFg:1s4HzZ:p7jH1j9yErHQRQVHi_joQWMPAW3T-EafSaPACvllTyo",
+            "expire_date": "2024-05-21T10:24:13.436Z"
+        }
+    },
+    {
+        "model": "baseapp.tags",
+        "pk": 1,
+        "fields": {
+            "name": "news"
+        }
+    },
+    {
+        "model": "baseapp.category",
+        "pk": 1,
+        "fields": {
+            "name": "राष्‍ट्रिय",
+            "url_name": "national",
+            "parent": null
+        }
+    },
+    {
+        "model": "baseapp.category",
+        "pk": 2,
+        "fields": {
+            "name": "राजनीति",
+            "url_name": "politics",
+            "parent": null
+        }
+    },
+    {
+        "model": "baseapp.category",
+        "pk": 3,
+        "fields": {
+            "name": "संसद्",
+            "url_name": "parliament",
+            "parent": null
+        }
+    },
+    {
+        "model": "baseapp.category",
+        "pk": 4,
+        "fields": {
+            "name": "प्रदेश",
+            "url_name": "province",
+            "parent": null
+        }
+    },
+    {
+        "model": "baseapp.category",
+        "pk": 5,
+        "fields": {
+            "name": "विचार",
+            "url_name": "opinion",
+            "parent": null
+        }
+    },
+    {
+        "model": "baseapp.category",
+        "pk": 6,
+        "fields": {
+            "name": "प्रदेश 1",
+            "url_name": "province-1",
+            "parent": 4
+        }
+    },
+    {
+        "model": "baseapp.category",
+        "pk": 7,
+        "fields": {
+            "name": "प्रदेश 2",
+            "url_name": "province-2",
+            "parent": 4
+        }
+    },
+    {
+        "model": "baseapp.category",
+        "pk": 8,
+        "fields": {
+            "name": "अर्थ",
+            "url_name": "economy",
+            "parent": null
+        }
+    },
+    {
+        "model": "baseapp.category",
+        "pk": 9,
+        "fields": {
+            "name": "home",
+            "url_name": "home",
+            "parent": null
+        }
+    },
+    {
+        "model": "baseapp.category",
+        "pk": 10,
+        "fields": {
+            "name": "सुदूरपश्‍चिम प्रदेश",
+            "url_name": "sudurpachimpradesh",
+            "parent": 4
+        }
+    },
+    {
+        "model": "baseapp.post",
+        "pk": 1,
+        "fields": {
+            "headline": "Woman, child found burnt to death in Janakpurdham",
+            "featured_image": "Posts/sudip/Woman, child found burnt to death in Janakpurdham/thumb.jpeg",
+            "first_paragraph": "A woman and a baby were burnt to death in Kapileshwar of Janakpurdham on Wednesday.",
+            "content": "<p>A woman and a baby were burnt to death in Kapileshwar of Janakpurdham on Wednesday.</p>\r\n\r\n<p>According to the police, 23-year-old Priyanka Mahato was found dead in ward 16 of Janakpurdham Sub-Metropolitan City on Wednesday evening.</p>\r\n\r\n<p>The nine-year-old baby girl, who was found with severe burns all over her body, died on the way to the hospital, said Superintendent of Police Bhuwaneshwar Tiwari. Her body has been burned beyond recognition.</p>\r\n\r\n<p>Police assume the victims are mother and daughter.</p>\r\n\r\n<p>The bodies have been sent to Provincial Hospital Janakpurdham for postmortem.</p>\r\n\r\n<p>Further investigation into the matter is underway, Tiwari added.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><br />\r\n<br />\r\n<a href=\"https://kathmandupost.com/province-no-2/2024/04/18/woman-child-found-burnt-to-death-in-janakpurdham\">https://kathmandupost.com/province-no-2/2024/04/18/woman-child-found-burnt-to-death-in-janakpurdham</a></p>",
+            "posted_on": "2024-05-06T02:03:04Z",
+            "posted_on_bs": "२४ वैशाख २०८१, सोमबार",
+            "last_modified": "2024-05-07T06:47:00.034Z",
+            "author": 1,
+            "views_count": 0,
+            "status": "Published",
+            "categories": [
+                1
+            ],
+            "tags": [
+                1
+            ]
+        }
+    },
+    {
+        "model": "baseapp.post",
+        "pk": 2,
+        "fields": {
+            "headline": "Shakya nominated to National Assembly",
+            "featured_image": "Posts/sudip/Shakya nominated to National Assembly/thumb1.jpeg",
+            "first_paragraph": "President Ramchandra Paudel on Thursday nominated Anjan Shakya as a National Assembly member.",
+            "content": "<p>President Ramchandra Paudel on Thursday nominated Anjan Shakya as a National Assembly member.</p>\r\n\r\n<p>President Paudel nominated Shakya to the upper house on the government&rsquo;s recommendation, the Office of President said in a statement.</p>\r\n\r\n<p>A meeting of the Council of Ministers on April 11 had&nbsp;<a href=\"https://kathmandupost.com/national/2024/04/12/cabinet-recommends-president-to-prorogue-house-session\">recommended&nbsp;</a>Shakya for the one vacant seat in the National Assembly.</p>\r\n\r\n<p>Shakya, who is close to the CPN-UML, is a former ambassador to Israel and a former National Planning Commission member.</p>\r\n\r\n<p><br />\r\n<br />\r\n<a href=\"https://kathmandupost.com/national/2024/04/18/shakya-nominated-to-national-assembly\">https://kathmandupost.com/national/2024/04/18/shakya-nominated-to-national-assembly</a></p>",
+            "posted_on": "2024-05-06T08:02:54Z",
+            "posted_on_bs": "२४ वैशाख २०८१, सोमबार",
+            "last_modified": "2024-05-07T08:47:00.579Z",
+            "author": 1,
+            "views_count": 6,
+            "status": "Published",
+            "categories": [
+                1
+            ],
+            "tags": [
+                1
+            ]
+        }
+    },
+    {
+        "model": "baseapp.post",
+        "pk": 3,
+        "fields": {
+            "headline": "Kin of Nepalis in Russian army protest in Kathmandu",
+            "featured_image": "Posts/sudip/Kin of Nepalis in Russian army protest in Kathmandu/thumb2.jpeg",
+            "first_paragraph": "Kin of Nepalis serving in the Russian army staged a demonstration in Kathmandu on Thursday demanding their repatriation.",
+            "content": "<p>Kin of Nepalis serving in the Russian army staged a demonstration in Kathmandu on Thursday demanding their repatriation.</p>\r\n\r\n<p>Police arrested 12 protesters after they staged a demonstration at the south entrance of Singha Durbar, the main administrative hub of the country.</p>\r\n\r\n<p>They also called for the release of five Nepalis held captive by Ukrainian forces.</p>\r\n\r\n<p>The government lacks clear data on Nepalis serving in the Russian army. As many as 32 Nepalis have lost their lives in the Russia-Ukraine war so far.</p>\r\n\r\n<p>Over 200 family members have registered separate complaints at the Department of Consular Services for the rescue of their relatives.&nbsp;</p>\r\n\r\n<p><br />\r\n<br />\r\n<a href=\"https://kathmandupost.com/national/2024/04/18/kin-of-nepalis-in-russian-army-protest-in-kathmandu\">https://kathmandupost.com/national/2024/04/18/kin-of-nepalis-in-russian-army-protest-in-kathmandu</a></p>",
+            "posted_on": "2024-05-06T08:34:46.476Z",
+            "posted_on_bs": "२४ वैशाख २०८१, सोमबार",
+            "last_modified": "2024-05-06T08:34:46.480Z",
+            "author": 1,
+            "views_count": 8,
+            "status": "Published",
+            "categories": [
+                1
+            ],
+            "tags": [
+                1
+            ]
+        }
+    },
+    {
+        "model": "baseapp.post",
+        "pk": 4,
+        "fields": {
+            "headline": "Finance Minister Pun calls for urgent global action on climate change",
+            "featured_image": "Posts/sudip/Finance Minister Pun calls for urgent global action on climate change/thumb_3.jpeg",
+            "first_paragraph": "Finance Minister Barshaman Pun has emphasised the urgent need for the global community to recognise and address the challenges confronting developing nations like Nepal, which are disproportionately affected by climate change.",
+            "content": "<p>Finance Minister Barshaman Pun has emphasised the urgent need for the global community to recognise and address the challenges confronting developing nations like Nepal, which are disproportionately affected by climate change.</p>\r\n\r\n<p>Pun underscored the plight of Nepal&rsquo;s impoverished and marginalised communities, bearing the brunt of climate change while addressing the 12th ministerial meeting of the V-20 (a group of countries at risk due to the effects of climate change) in Washington DC, the US.</p>\r\n\r\n<p>He drew attention to the alarming environmental repercussions, including accelerated snowmelt in the Himalayas, dwindling glacier water flow and heightened risks of glacial lake outburst, his secretariat said.</p>\r\n\r\n<p>Minister Pun stressed the necessity for developed economies to extend financial aid for climate adaptation initiatives to least developed countries like Nepal. Despite playing a minimal role in causing climate change, these nations face significant risks and require support to mitigate its impacts, he said.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><br />\r\n<br />\r\n<a href=\"https://kathmandupost.com/national/2024/04/18/finance-minister-pun-calls-for-urgent-global-action-on-climate-change\">https://kathmandupost.com/national/2024/04/18/finance-minister-pun-calls-for-urgent-global-action-on-climate-change</a></p>",
+            "posted_on": "2024-05-02T11:35:31Z",
+            "posted_on_bs": "२४ वैशाख २०८१, सोमबार",
+            "last_modified": "2024-05-07T08:47:39.526Z",
+            "author": 1,
+            "views_count": 8,
+            "status": "Published",
+            "categories": [
+                1
+            ],
+            "tags": [
+                1
+            ]
+        }
+    },
+    {
+        "model": "baseapp.post",
+        "pk": 5,
+        "fields": {
+            "headline": "As springs dry up, water shortage deepens in high altitude villages of Mallarani in Pyuthan",
+            "featured_image": "Posts/sudip/As springs dry up, w/thumb_4.jpeg",
+            "first_paragraph": "Kuwari Nepali, a 70-year-old woman from Khajure in ward 2 of Mallarani Rural Municipality, Pyuthan, wakes up early in the morning and heads for the nearest spring, which is one and a half hours away, carrying her water pot.",
+            "content": "<p>Kuwari Nepali, a 70-year-old woman from Khajure in ward 2 of Mallarani Rural Municipality, Pyuthan, wakes up early in the morning and heads for the nearest spring, which is one and a half hours away, carrying her water pot.</p>\r\n\r\n<p>Nepali has children as well as grandchildren, but they all live in cities, and in the village, only she and her husband, who is also above the age of 70, live.</p>\r\n\r\n<p>&ldquo;There are no other natural sources of water except the one that is one and a half hours away. I start my day walking to the spring and only return in the evening every day,&rdquo; said Nepali.</p>\r\n\r\n<p>&ldquo;My husband helps me as well to carry the water home, but whenever one of us gets sick, we are deprived of drinking water. Everybody, including the people&#39;s representatives, knows about the drinking water problem, but nobody has done anything about it,&rdquo; Nepali added.</p>\r\n\r\n<p><br />\r\n<br />\r\n<a href=\"https://kathmandupost.com/province-no-5/2024/04/18/as-springs-dry-up-water-shortage-deepens-in-high-altitude-villages-of-mallarani-in-pyuthan\">https://kathmandupost.com/province-no-5/2024/04/18/as-springs-dry-up-water-shortage-deepens-in-high-altitude-villages-of-mallarani-in-pyuthan</a></p>",
+            "posted_on": "2024-04-18T00:00:00Z",
+            "posted_on_bs": null,
+            "last_modified": "2024-04-18T09:56:13.574Z",
+            "author": 1,
+            "views_count": 0,
+            "status": "Published",
+            "categories": [
+                1
+            ],
+            "tags": [
+                1
+            ]
+        }
+    },
+    {
+        "model": "baseapp.post",
+        "pk": 6,
+        "fields": {
+            "headline": "One dead, 21 injured in passenger bus accident",
+            "featured_image": "Posts/sudip/One dead, 21 injured/thumb_5.jpeg",
+            "first_paragraph": "At least one person died and 21 others were injured in a bus accident in Salyan on Wednesday.",
+            "content": "<p>At least one person died and 21 others were injured in a bus accident in Salyan on Wednesday.</p>\r\n\r\n<p>The accident occurred after the out-of-control vehicle, travelling towards Rukum from Ghorahi, fell off the Thinbang river bridge in ward 2 of Bagchaur Municipality at around 11am.</p>\r\n\r\n<p>Forty-six-year-old Bishnu Bishwokarma, who had been seriously injured in the accident, died while undergoing treatment at the Rapti Provincial Hospital, Tulsipur, said Deputy Superintendent of Police Nabin Karki.</p>\r\n\r\n<p><br />\r\n<br />\r\n<a href=\"https://kathmandupost.com/karnali-province/2024/04/17/one-dead-21-injured-in-passenger-bus-accident\">https://kathmandupost.com/karnali-province/2024/04/17/one-dead-21-injured-in-passenger-bus-accident</a></p>",
+            "posted_on": "2024-04-18T00:00:00Z",
+            "posted_on_bs": null,
+            "last_modified": "2024-04-18T09:57:14.854Z",
+            "author": 1,
+            "views_count": 1,
+            "status": "Published",
+            "categories": [
+                1
+            ],
+            "tags": [
+                1
+            ]
+        }
+    },
+    {
+        "model": "baseapp.post",
+        "pk": 7,
+        "fields": {
+            "headline": "Karnali Chief Minister Kandel sworn in Rural municipality launches motorboat service",
+            "featured_image": "Posts/sudip/Karnali Chief Minist/thumb_6.jpeg",
+            "first_paragraph": "Province Head Tilak Pariyar administered the oath of office and secrecy to Kandel amid a function at the Surkhet-based Office of the Province Head.",
+            "content": "<p>Province Head Tilak Pariyar administered the oath of office and secrecy to Kandel amid a function at the Surkhet-based Office of the Province Head.</p>\r\n\r\n<p>Province Head Pariyar&nbsp;<a href=\"https://kathmandupost.com/karnali-province/2024/04/09/yam-lal-kandel-appointed-karnali-chief-minister\">appointed&nbsp;</a>Kandel, who is UML&rsquo;s provincial assembly leader, to the position on Tuesday after he staked a claim to lead a new government.</p>\r\n\r\n<p>Kandel presented his claim for the chief ministerial position with the support of 23 provincial assembly members. Kandel has the backing of 13 lawmakers of the CPN (Maoist Centre), nine of the UML and one of the CPN (Unified Socialist).</p>\r\n\r\n<p>Support of 21 members is needed to command a majority in the 40-member assembly.</p>\r\n\r\n<p>Province Head Pariyar had called on political parties to stake a claim for the government after Raj Kumar Sharma of the Maoist Centre&nbsp;<a href=\"https://kathmandupost.com/karnali-province/2024/04/03/karnali-chief-minister-sharma-resigns\">resigned</a>&nbsp;from the chief minister on April 3.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><br />\r\n<br />\r\n<a href=\"https://kathmandupost.com/karnali-province/2024/04/10/karnali-chief-minister-kandel-sworn-in\">https://kathmandupost.com/karnali-province/2024/04/10/karnali-chief-minister-kandel-sworn-in</a></p>",
+            "posted_on": "2024-05-06T08:02:37Z",
+            "posted_on_bs": "२४ वैशाख २०८१, सोमबार",
+            "last_modified": "2024-05-07T09:02:01.906Z",
+            "author": 1,
+            "views_count": 5,
+            "status": "Published",
+            "categories": [
+                1
+            ],
+            "tags": [
+                1
+            ]
+        }
+    },
+    {
+        "model": "baseapp.post",
+        "pk": 8,
+        "fields": {
+            "headline": "Rising wildlife attacks forcing residents to flee villages bordering Banke National Park",
+            "featured_image": "Posts/sudip/Rising wildlife atta/thumb_7.jpeg",
+            "first_paragraph": "Tila Rana, a 40-year-old woman from Ambas settlements in ward 7 of Kalimati Rural Municipality, is planning to migrate due to the constant threat of wild animal attacks.",
+            "content": "<p>Tila Rana, a 40-year-old woman from Ambas settlements in ward 7 of Kalimati Rural Municipality, is planning to migrate due to the constant threat of wild animal attacks.</p>\r\n\r\n<p>&ldquo;Despite no fatalities, more than 50 people have sustained injuries within a year. Also, nobody in the settlement rears cattle or livestock due to the threat of wild animals. Life here is very difficult as crops are damaged by monkeys and boars, and there is always the risk of being attacked by tigers and bears,&rdquo; said Rana.</p>\r\n\r\n<p>Due to human-animal conflict, the locals of four settlements in ward 7 of Kalimati Rural Municipality, which borders the Banke National Park, are migrating to safer places.</p>\r\n\r\n<p>Locals of Ambas, Bherikuti, Gahakhane, and Magare in ward 7 of the rural municipality are leaving due to increasing fears of attacks by wild animals such as tigers, bears, and wild boars from the nearby Banke National Park.</p>\r\n\r\n<p><br />\r\n<br />\r\n<a href=\"https://kathmandupost.com/karnali-province/2024/04/19/rising-wildlife-attacks-forcing-residents-to-flee-villages-bordering-banke-national-park\">https://kathmandupost.com/karnali-province/2024/04/19/rising-wildlife-attacks-forcing-residents-to-flee-villages-bordering-banke-national-park</a></p>",
+            "posted_on": "2024-04-20T00:00:00Z",
+            "posted_on_bs": null,
+            "last_modified": "2024-04-20T14:33:40.782Z",
+            "author": 1,
+            "views_count": 12,
+            "status": "Published",
+            "categories": [
+                1
+            ],
+            "tags": [
+                1
+            ]
+        }
+    },
+    {
+        "model": "baseapp.post",
+        "pk": 9,
+        "fields": {
+            "headline": "Nepali national dies in UAE flood",
+            "featured_image": "Posts/sudip/Nepali national dies/thumb8.png",
+            "first_paragraph": "A Nepali national died in the flash floods in the United Arab Emirates (UAEA top official at Investment Board Nepal said that among the projects, 21 are ready-to-go projects that have already secured a government nod. These projects are ready and the government will invite potential investors to submit the expression of interest from the spot during the two-day summit.",
+            "content": "<p>A Nepali national died in the flash floods in the United Arab Emirates (UAEA top official at Investment Board Nepal said that among the projects, 21 are ready-to-go projects that have already secured a government nod. These projects are ready and the government will invite potential investors to submit the expression of interest from the spot during the two-day summit.</p>\r\n\r\n<p>Most are hydropower projects, with 1,902 MW Mugu Karnali storage hydro project, whose cost has yet to be estimated, being the biggest, followed by 1,216 MW Khimti Thoshe Shivalaya storage hydro project in Dolakha, with an estimated cost of Rs231 billion. Likewise, the 150-km Chandragiri-Chitlang-Palung expressway, which connects Kathmandu with Chitwan is also on the list, estimated to cost Rs221.12 billion.</p>\r\n\r\n<p>According to the Nepali Embassy in Abu Dhabi, the deceased has been identified as Mohan Pun of Bharatpur.</p>\r\n\r\n<p>He was caught in the flood near a bridge between the Emirati cities of Sharjah and Ajman, the embassy said.</p>\r\n\r\n<p>The UAE has been grappling with the aftermath of a record-breaking storm this week that brought much of the country to a standstill.</p>\r\n\r\n<p>The storm, which hit neighbouring Oman on Sunday, pounded the UAE on Tuesday, flooding roads and causing hours-long gridlock as rainwater inundated homes. One person was reported dead in the UAE and 20 in Oman.</p>\r\n\r\n<p><br />\r\n<br />\r\n<a href=\"https://kathmandupost.com/national/2024/04/18/nepali-national-dies-in-uae-flood\">https://kathmandupost.com/national/2024/04/18/nepali-national-dies-in-uae-flood</a></p>",
+            "posted_on": "2024-05-06T08:22:29.328Z",
+            "posted_on_bs": "२४ वैशाख २०८१, सोमबार",
+            "last_modified": "2024-05-06T08:22:29.332Z",
+            "author": 1,
+            "views_count": 1,
+            "status": "Published",
+            "categories": [
+                1
+            ],
+            "tags": [
+                1
+            ]
+        }
+    },
+    {
+        "model": "baseapp.post",
+        "pk": 10,
+        "fields": {
+            "headline": "Dilapidated Rolpa district prison housing inmates twice its capacity",
+            "featured_image": "Posts/sudip/Dilapidated Rolpa di/thumb_8.jpeg",
+            "first_paragraph": "The Rolpa District Prison located in Libang in ward 4 of Rolpa Municipality, is in a dilapidated condition, and houses prisoners twice its designated capacity.",
+            "content": "<p>The Rolpa District Prison located in Libang in ward 4 of Rolpa Municipality, is in a dilapidated condition, and houses prisoners twice its designated capacity.</p>\r\n\r\n<p>According to Yam Bahadur Wali, acting chief of the district prison, the prison was built in 1982 with a maximum capacity of only 50 prisoners, but currently there are 123 prisoners in the prison.</p>\r\n\r\n<p>&ldquo;The prison guidelines and infrastructure were built to hold only 35 men and 15 women, but currently there are 114 male and nine female prisoners. We are forced to keep new arrivals and transferred prisoners in a tiny cell due to a lack of space,&rdquo; said Wali.</p>\r\n\r\n<p>&ldquo;There is always a risk of prisoners getting attacked by other prisoners in a cramped cell, mostly the detainees who are remanded in judicial custody for investigation. Very often, prisoners start brawls and injure others; new arrivals and transferred prisoners are the most vulnerable ones here,&rdquo; Wali added.</p>\r\n\r\n<p>According to the prison administration office, the number of prisoners serving time for committing homicide and rape is higher. There are 36 prisoners convicted of homicides, 29 of rape, and nine of illegal drug-related cases, among others.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><br />\r\n<br />\r\n<a href=\"https://kathmandupost.com/national/2024/04/20/dilapidated-rolpa-district-prison-housing-inmates-twice-its-capacity\">https://kathmandupost.com/national/2024/04/20/dilapidated-rolpa-district-prison-housing-inmates-twice-its-capacity</a></p>",
+            "posted_on": "2024-04-20T00:00:00Z",
+            "posted_on_bs": null,
+            "last_modified": "2024-04-20T14:36:13.266Z",
+            "author": 1,
+            "views_count": 2,
+            "status": "Published",
+            "categories": [
+                1
+            ],
+            "tags": [
+                1
+            ]
+        }
+    },
+    {
+        "model": "baseapp.post",
+        "pk": 11,
+        "fields": {
+            "headline": "1,063 MW Upper Arun receives World Bank nod Rural municipality launches motorboat service Rural municipality launches motorboat service Rural municipality launches motorboat service",
+            "featured_image": "Posts/sudip/MWUpperArunreceivesW/thumb_.jpeg",
+            "first_paragraph": "The World Bank has agreed “in principle” to lead the consortium of international financiers for the development of the 1,063 MW Upper Arun hydropower project in Sankhuwasabha, the Finance Ministry said on Friday.",
+            "content": "<p>The World Bank has agreed &ldquo;in principle&rdquo; to lead the consortium of international financiers for the development of the 1,063 MW Upper Arun hydropower project in Sankhuwasabha, the Finance Ministry said on Friday.</p>\r\n\r\n<p>The project on the Arun River in eastern Nepal is estimated to cost $1.71 billion.</p>\r\n\r\n<p>The development comes following a meeting between Finance Minister Barsha Man Pun with Martin Raiser, World Bank&rsquo;s vice president for the South Asia region, in Washington DC, the United States.</p>\r\n\r\n<p>Pun is currently in the US to participate in the joint spring meeting of the World Bank and the International Monetary Fund.</p>\r\n\r\n<p>In a statement, Shree Krishna Nepal, joint secretary at the Finance Ministry, who is accompanying Pun, said that the World Bank has agreed &ldquo;in principle&rdquo; to lead the project.</p>\r\n\r\n<p>The agreement will be formalised once it receives the Cabinet&rsquo;s approval.</p>\r\n\r\n<p>&ldquo;There will be an agreement regarding financial management with the World Bank,&rdquo; said Nepal, who heads the International Economic Cooperation Coordination Division of the Finance Ministry.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><br />\r\n<br />\r\n<a href=\"https://kathmandupost.com/money/2024/04/20/1-063-mw-upper-arun-receives-world-bank-nod\">https://kathmandupost.com/money/2024/04/20/1-063-mw-upper-arun-receives-world-bank-nod</a></p>",
+            "posted_on": "2024-04-03T11:32:42Z",
+            "posted_on_bs": "२४ वैशाख २०८१, सोमबार",
+            "last_modified": "2024-05-06T11:38:25.743Z",
+            "author": 1,
+            "views_count": 8,
+            "status": "Published",
+            "categories": [
+                8
+            ],
+            "tags": [
+                1
+            ]
+        }
+    },
+    {
+        "model": "baseapp.post",
+        "pk": 12,
+        "fields": {
+            "headline": "Political uncertainty clouds Nepal’s investment summit",
+            "featured_image": "Posts/sudip/Politicaluncertainty/thumb_12.jpeg",
+            "first_paragraph": "The government plans to dangle 148 potential projects, with nearly Rs900 billion worth of ready-to-go projects, before foreign and domestic investors at the third edition of the Nepal Investment Summit slated for April 28-29.",
+            "content": "<p>The government plans to dangle 148 potential projects, with nearly Rs900 billion worth of ready-to-go projects, before foreign and domestic investors at the third edition of the Nepal Investment Summit slated for April 28-29.</p>\r\n\r\n<p>A top official at Investment Board Nepal said that among the projects, 21 are ready-to-go projects that have already secured a government nod. These projects are ready and the government will invite potential investors to submit the expression of interest from the spot during the two-day summit.</p>\r\n\r\n<p>Most are hydropower projects, with 1,902 MW Mugu Karnali storage hydro project, whose cost has yet to be estimated, being the biggest, followed by 1,216 MW Khimti Thoshe Shivalaya storage hydro project in Dolakha, with an estimated cost of Rs231 billion. Likewise, the 150-km Chandragiri-Chitlang-Palung expressway, which connects Kathmandu with Chitwan is also on the list, estimated to cost Rs221.12 billion.</p>\r\n\r\n<p><br />\r\n<br />\r\n<a href=\"https://kathmandupost.com/money/2024/04/18/political-uncertainty-clouds-nepal-s-investment-summit\">https://kathmandupost.com/money/2024/04/18/political-uncertainty-clouds-nepal-s-investment-summit</a></p>",
+            "posted_on": "2024-05-06T11:28:55.521Z",
+            "posted_on_bs": "२४ वैशाख २०८१, सोमबार",
+            "last_modified": "2024-05-06T11:28:55.524Z",
+            "author": 1,
+            "views_count": 27,
+            "status": "Published",
+            "categories": [
+                8
+            ],
+            "tags": [
+                1
+            ]
+        }
+    },
+    {
+        "model": "baseapp.post",
+        "pk": 13,
+        "fields": {
+            "headline": "JCB strengthens its business in Nepal",
+            "featured_image": "Posts/sudip/JCBstrengthensitsbus/thumb_13.jpeg",
+            "first_paragraph": "The world’s leading manufacturer of earthmoving and construction equipment, JCB, further committed its presence in Nepal through its dealer, MAW Earthmovers. ",
+            "content": "<p>The world&rsquo;s leading manufacturer of earthmoving and construction equipment, JCB, further committed its presence in Nepal through its dealer, MAW Earthmovers.&nbsp;</p>\r\n\r\n<p>As part of the support to the Nepali market, JCB India has introduced a warranty scheme of up to 5 years or 10,000 hours, whichever is earlier, for its select range of tracked excavators. MAW Earthmovers has been a dealer for JCB for over two decades in this market.</p>\r\n\r\n<p>&nbsp;The dealership has its headquarters in Kathmandu and has 32 outlets spread across Nepal along with three operator training institutes where candidates are trained to Operate JCB machines. MAW Earthmovers will be inaugurating its fourth operator training centre in Chitwan shortly.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><br />\r\n<br />\r\n<a href=\"https://kathmandupost.com/money/2024/04/17/jcb-strengthens-its-business-in-nepal\">https://kathmandupost.com/money/2024/04/17/jcb-strengthens-its-business-in-nepal</a></p>",
+            "posted_on": "2024-05-06T04:02:17Z",
+            "posted_on_bs": "२४ वैशाख २०८१, सोमबार",
+            "last_modified": "2024-05-07T06:46:36.969Z",
+            "author": 1,
+            "views_count": 1,
+            "status": "Published",
+            "categories": [
+                8
+            ],
+            "tags": [
+                1
+            ]
+        }
+    },
+    {
+        "model": "baseapp.post",
+        "pk": 14,
+        "fields": {
+            "headline": "TIBSA opens training academy in Kamaladi",
+            "featured_image": "Posts/sudip/TIBSAopenstrainingac/thumb_14.jpeg",
+            "first_paragraph": "A top official at Investment Board Nepal said that among the projects, 21 are ready-to-go projects that have already secured a government nod. These projects are ready and the government will invite potential investors to submit the expression of interest from the spot during the two-day summit.",
+            "content": "<p>A top official at Investment Board Nepal said that among the projects, 21 are ready-to-go projects that have already secured a government nod. These projects are ready and the government will invite potential investors to submit the expression of interest from the spot during the two-day summit.</p>\r\n\r\n<p>Most are hydropower projects, with 1,902 MW Mugu Karnali storage hydro project, whose cost has yet to be estimated, being the biggest, followed by 1,216 MW Khimti Thoshe Shivalaya storage hydro project in Dolakha, with an estimated cost of Rs231 billion. Likewise, the 150-km Chandragiri-Chitlang-Palung expressway, which connects Kathmandu with Chitwan is also on the list, estimated to cost Rs221.12 billion.</p>\r\n\r\n<p>Kathmandu</p>\r\n\r\n<p>With the growing demand for Spa therapists and beauticians worldwide, Tranquillity International Beauty &amp; Spa Academy has opened a training academy in Heritage Plaza, Kamaladi to train Nepalis and foreigners.&nbsp;</p>\r\n\r\n<p>The Academy is the sister organisation of Nepal&rsquo;s largest spa and wellness chain&mdash;Tranquility Spa.</p>\r\n\r\n<p>&nbsp;Tranquility Spa has recently opened new Day Spas at Hattigauda, Naxal and Sanepa. It is opening its wellness centres in Lemon Tree Premier Budhanilkantha and Chandragiri Hills Resort within a month.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><br />\r\n<br />\r\n<a href=\"https://kathmandupost.com/money/2024/04/16/tibsa-opens-training-academy-in-kamaladi\">https://kathmandupost.com/money/2024/04/16/tibsa-opens-training-academy-in-kamaladi</a></p>",
+            "posted_on": "2024-05-06T04:23:01Z",
+            "posted_on_bs": "२४ वैशाख २०८१, सोमबार",
+            "last_modified": "2024-05-07T06:40:10.919Z",
+            "author": 1,
+            "views_count": 3,
+            "status": "Published",
+            "categories": [
+                8
+            ],
+            "tags": [
+                1
+            ]
+        }
+    },
+    {
+        "model": "baseapp.post",
+        "pk": 15,
+        "fields": {
+            "headline": "Dhaka wants preferential trade pact.",
+            "featured_image": "",
+            "first_paragraph": "Nepal and Bangladesh are sitting down for a commerce secretary-level meeting in Kathmandu on Wednesday to strengthen economic ties and boost subregional connectivity. But the much-delayed bilateral preferential trade agreement (PTA) between the two neighbours will not be on the agenda, according to the sources privy to the matter.",
+            "content": "<p>Nepal and Bangladesh are sitting down for a commerce secretary-level meeting in Kathmandu on Wednesday to strengthen economic ties and boost subregional connectivity. But the much-delayed bilateral preferential trade agreement (PTA) between the two neighbours will not be on the agenda, according to the sources privy to the matter.</p>\r\n\r\n<p>The two-day meeting will be chaired by Commerce Secretary Dinesh Kumar Ghimire from the Nepal side and Commerce Ministry Senior Secretary Tapan Kanti Ghosh from Bangladesh.</p>\r\n\r\n<p>In October 2020, the sixth Nepal-Bangladesh commerce secretary-level meeting held virtually on trade and economic cooperation agreed to sign a bilateral PTA for the first time since the establishment of diplomatic relations between the two countries in 1972.</p>\r\n\r\n<p><br />\r\n<br />\r\n<a href=\"https://kathmandupost.com/money/2024/04/17/dhaka-wants-preferential-trade-pact-nepal-says-drop-hidden-tariffs-first\">https://kathmandupost.com/money/2024/04/17/dhaka-wants-preferential-trade-pact-nepal-says-drop-hidden-tariffs-first</a></p>",
+            "posted_on": "2024-05-06T01:02:06Z",
+            "posted_on_bs": "२४ वैशाख २०८१, सोमबार",
+            "last_modified": "2024-05-07T06:47:46.369Z",
+            "author": 1,
+            "views_count": 0,
+            "status": "Published",
+            "categories": [
+                8
+            ],
+            "tags": [
+                1
+            ]
+        }
+    },
+    {
+        "model": "baseapp.post",
+        "pk": 16,
+        "fields": {
+            "headline": "USAID’s Urja Nepal builds 23 electric vehicles charging stations Rural municipality launches motorboat service",
+            "featured_image": "Posts/sudip/USAIDsUrjaNepalbuild/thumb16.jpeg",
+            "first_paragraph": "USAID’s Urja Nepal on Tuesday inaugurated 23 new electric vehicles charging stations across seven locations in Bagmati Province under its grants programme, marking a significant step forward for Nepal’s EV ambitions.",
+            "content": "<p>USAID&rsquo;s Urja Nepal on Tuesday inaugurated 23 new electric vehicles charging stations across seven locations in Bagmati Province under its grants programme, marking a significant step forward for Nepal&rsquo;s EV ambitions.</p>\r\n\r\n<p>Among them is a mobile EV charger.</p>\r\n\r\n<p>This initiative aligns with Nepal&rsquo;s determined target of increasing EV sales to cover 90 percent of all private vehicles and 60 percent of all public vehicles by 2030 to lessen the nation&#39;s reliance on fossil fuels and promote a more sustainable transportation sector.</p>\r\n\r\n<p>&ldquo;USAID Nepal&rsquo;s commitment and support to promoting electric mobility is second to none and it perfectly aligns with the government&rsquo;s vision of energy transition to achieve net zero targets,&rdquo; said Sandip Kumar Dev, joint-secretary at the Ministry of Energy Water Resources and Irrigation. &ldquo;These business models of leveraging the private sector to scale up EV infrastructure will enable Nepal to accelerate its energy transition goal.&rdquo;</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p style=\"text-align:center\"><img alt=\"\" height=\"801\" src=\"/media/posts/2024/05/06/thumb8.png\" width=\"1205\" /></p>\r\n\r\n<p><br />\r\n<br />\r\n<a href=\"https://kathmandupost.com/money/2024/04/10/usaid-s-urja-nepal-builds-23-electric-vehicles-charging-stations\">https://kathmandupost.com/money/2024/04/10/usaid-s-urja-nepal-builds-23-electric-vehicles-charging-stations</a></p>",
+            "posted_on": "2024-05-06T09:59:51Z",
+            "posted_on_bs": "२४ वैशाख २०८१, सोमबार",
+            "last_modified": "2024-05-07T07:09:12.621Z",
+            "author": 1,
+            "views_count": 52,
+            "status": "Published",
+            "categories": [
+                8
+            ],
+            "tags": [
+                1
+            ]
+        }
+    },
+    {
+        "model": "baseapp.post",
+        "pk": 17,
+        "fields": {
+            "headline": "Nepal sets sight on multi-billion dollar LGBTIQ tourism market",
+            "featured_image": "Posts/sudip/Nepalsetssightonmult/thumb_17.jpeg",
+            "first_paragraph": "Nepal on Saturday hosted the first international LGBTIQ tourism conference. It wants a chunk of the multi-billion dollar pink market after the stunning success of a legally recognised same-sex marriage last November.",
+            "content": "<p>Nepal on Saturday hosted the first international LGBTIQ tourism conference. It wants a chunk of the multi-billion dollar pink market after the stunning success of a legally recognised same-sex marriage last November.</p>\r\n\r\n<p>&ldquo;Forget Nepal&rsquo;s biassed history. Now, we aim at building more just and equitable societies. Let the lesbian, gay, bisexual, trans, intersex or queer (LGBTIQ) get equal economic opportunity,&rdquo; said Sunil Babu Pant, the first openly gay former parliamentarian in Asia, addressing the conference in Kathmandu.</p>\r\n\r\n<p>Just a few years back, police beating gay and transgender individuals in the streets used to be a common sight.</p>\r\n\r\n<p>&ldquo;After fighting legal battles for nearly two decades, the law and the society have accepted the LGBTIQ community. Now we are in the second phase&mdash;we need equal econom<img alt=\"\" height=\"598\" src=\"/media/posts/2024/05/06/thumb8.png\" width=\"900\" />ic opportunities. For this we need to bring LGBTIQ tourists from the global market.&rdquo;</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><br />\r\n<br />\r\n<a href=\"https://kathmandupost.com/money/2024/04/21/nepal-sets-sight-on-multi-billion-dollar-lgbtiq-tourism-market\">https://kathmandupost.com/money/2024/04/21/nepal-sets-sight-on-multi-billion-dollar-lgbtiq-tourism-market</a></p>",
+            "posted_on": "2024-05-06T12:01:57Z",
+            "posted_on_bs": "२४ वैशाख २०८१, सोमबार",
+            "last_modified": "2024-05-07T08:43:36.820Z",
+            "author": 1,
+            "views_count": 18,
+            "status": "Published",
+            "categories": [
+                8
+            ],
+            "tags": [
+                1
+            ]
+        }
+    },
+    {
+        "model": "baseapp.post",
+        "pk": 18,
+        "fields": {
+            "headline": "Tootle introduces new commission rates for riders",
+            "featured_image": "Posts/sudip/Tootleintroducesnewc/thumb_18.jpeg",
+            "first_paragraph": "Tootle, Nepal's pioneering ride-hailing platform, has announced a significant update to its commission structure for riders, effective from April 14.\n\r\nAs per the new rate, cabs riders will get 12 percent commissions while bikes will get 15 percent.",
+            "content": "<p>Tootle, Nepal&#39;s pioneering ride-hailing platform, has announced a significant update to its commission structure for riders, effective from April 14.<br />\r\n<br />\r\nAs per the new rate, cabs riders will get 12 percent commissions while bikes will get 15 percent.</p>\r\n\r\n<p>By implementing differentiated rates for cabs and bikes, Tootle aims to optimise earnings for its diverse network of riders while offering competitive pricing for passengers, the company said in a statement.</p>\r\n\r\n<p><br />\r\n<br />\r\n<a href=\"https://kathmandupost.com/money/2024/04/16/tootle-introduces-new-commission-rates-for-riders\">https://kathmandupost.com/money/2024/04/16/tootle-introduces-new-commission-rates-for-riders</a></p>",
+            "posted_on": "2024-05-07T05:01:42Z",
+            "posted_on_bs": "२४ वैशाख २०८१, सोमबार",
+            "last_modified": "2024-05-07T08:34:43.766Z",
+            "author": 1,
+            "views_count": 14,
+            "status": "Published",
+            "categories": [
+                8
+            ],
+            "tags": [
+                1
+            ]
+        }
+    },
+    {
+        "model": "baseapp.post",
+        "pk": 19,
+        "fields": {
+            "headline": "Rural municipality launches motorboat service",
+            "featured_image": "Posts/sudip/Ruralmunicipalitylau/thumb_19.jpeg",
+            "first_paragraph": "Aanbookhaireni Rural Municipality in Tanahun district has launched a motorboat service in the reservoir of Marsyangdi Hydropower in a bid to promote tourism.",
+            "content": "<p>Aanbookhaireni Rural Municipality in Tanahun district has launched a motorboat service in the reservoir of Marsyangdi Hydropower in a bid to promote tourism.</p>\r\n\r\n<p>The service provider, Botebora, entered into an agreement with the rural municipality and commenced commercial operations on Sunday, according to Botebora Chairman Bishnu Dhakal.</p>\r\n\r\n<p>Dhakal said the motorboat operation began immediately with an investment of Rs10 million. The company plans to expand its investment to construct facilities including a beach restaurant, floating deck, river viewpoint, restroom, and a motorboat service centre along the reservoir&rsquo;s shore.</p>\r\n\r\n<p>Different fees have been set according to the duration of the ride. According to the company, a motorboat ride costs Rs250 per person for 6 to 8 minutes, Rs500 for 10 to 12 minutes and Rs 1,000 for a 15 to 20-minute ride.</p>\r\n\r\n<p>The motorboat station can be reached by travelling 14 km from Mugling towards Pokhara and 10 km from Dumre Bazar towards Kathmandu.</p>\r\n\r\n<p><br />\r\n<br />\r\n<a href=\"https://kathmandupost.com/money/2024/04/14/rural-municipality-launches-motorboat-service\">https://kathmandupost.com/money/2024/04/14/rural-municipality-launches-motorboat-service</a></p>",
+            "posted_on": "2024-05-06T05:01:30Z",
+            "posted_on_bs": "२४ वैशाख २०८१, सोमबार",
+            "last_modified": "2024-05-07T06:49:47.756Z",
+            "author": 1,
+            "views_count": 2,
+            "status": "Published",
+            "categories": [
+                8
+            ],
+            "tags": [
+                1
+            ]
+        }
+    },
+    {
+        "model": "baseapp.post",
+        "pk": 20,
+        "fields": {
+            "headline": "Escalating Middle East crisis threatens Nepali economy",
+            "featured_image": "Posts/sudip/EscalatingMiddleEast/thumb_20.jpeg",
+            "first_paragraph": "Remittance-dependent Nepal may face a dizzying sequence of shocks, particularly in the labour market, due to escalating tensions in the Middle East following Iran's attack on Israel on Saturday, experts have warned.",
+            "content": "<p>Remittance-dependent Nepal may face a dizzying sequence of shocks, particularly in the labour market, due to escalating tensions in the Middle East following Iran&#39;s attack on Israel on Saturday, experts have warned.</p>\r\n\r\n<p>Reports show that Tehran has warned it will strike again with greater force if Israel or the US retaliates for the Iranian strike on Israel. The Iranian attack, which involved more than 300 drones and missiles, were carried out on Saturday night.</p>\r\n\r\n<p>In India, several leading airlines have cancelled flights to Iran and restricted their use of Israeli and Iranian airspace amid rapidly escalating tensions.</p>\r\n\r\n<p>This has spurred worries for Nepal, which is mostly dependent on remittance earnings that make for a substantial portion of its economy.</p>\r\n\r\n<p>Most rural households now depend on at least one member&#39;s earnings from employment abroad. Due to remittances, according to the latest living standard survey, the average annual spending on consumption rose by 66 percent in the past 12 years, reaching Rs126,172 in 2023 from Rs75,902 in 2011.</p>\r\n\r\n<p>According to the Nepal Rastra Bank, the remittance inflow stood at $9.33 billion in the last fiscal year, the record-high earning</p>\r\n\r\n<p><br />\r\n<br />\r\n<a href=\"https://kathmandupost.com/money/2024/04/15/escalating-middle-east-crisis-threatens-nepali-economy\">https://kathmandupost.com/money/2024/04/15/escalating-middle-east-crisis-threatens-nepali-economy</a></p>",
+            "posted_on": "2024-05-06T04:01:17Z",
+            "posted_on_bs": "२४ वैशाख २०८१, सोमबार",
+            "last_modified": "2024-05-07T06:49:12.794Z",
+            "author": 1,
+            "views_count": 2,
+            "status": "Published",
+            "categories": [
+                8
+            ],
+            "tags": [
+                1
+            ]
+        }
+    },
+    {
+        "model": "baseapp.post",
+        "pk": 26,
+        "fields": {
+            "headline": "jpt2",
+            "featured_image": "None",
+            "first_paragraph": "z",
+            "content": "<p>z</p>",
+            "posted_on": null,
+            "posted_on_bs": null,
+            "last_modified": "2024-05-07T08:23:43.010Z",
+            "author": 1,
+            "views_count": 0,
+            "status": "Published",
+            "categories": [
+                8
+            ],
+            "tags": [
+                1
+            ]
+        }
+    },
+    {
+        "model": "baseapp.ad",
+        "pk": 1,
+        "fields": {
+            "party_name": "Nabil Bank",
+            "title": "saving account",
+            "posted_on": "2024-04-21T03:22:59.689Z",
+            "last_modified": "2024-04-21T10:56:07.136Z",
+            "image": "Ads/Nabil Bank/saving account/nabil.gif",
+            "expiry_date": null,
+            "link": "https://www.binaryshastra.com/",
+            "section": "main",
+            "categories": [
+                1
+            ]
+        }
+    },
+    {
+        "model": "baseapp.ad",
+        "pk": 2,
+        "fields": {
+            "party_name": "British Education Group",
+            "title": "courses",
+            "posted_on": "2024-04-21T03:24:22.676Z",
+            "last_modified": "2024-04-24T11:34:56.765Z",
+            "image": "Ads/British Education Group/courses/british_educaton_group.gif",
+            "expiry_date": null,
+            "link": "https://www.binaryshastra.com/",
+            "section": "main",
+            "categories": [
+                9
+            ]
+        }
+    },
+    {
+        "model": "baseapp.ad",
+        "pk": 3,
+        "fields": {
+            "party_name": "IME Pay",
+            "title": "win lottery",
+            "posted_on": "2024-04-21T03:25:58.564Z",
+            "last_modified": "2024-04-25T06:20:05.577Z",
+            "image": "Ads/IME Pay/win lottery/ime_pay.gif",
+            "expiry_date": null,
+            "link": "https://www.binaryshastra.com/",
+            "section": "side",
+            "categories": [
+                8
+            ]
+        }
+    },
+    {
+        "model": "baseapp.ad",
+        "pk": 4,
+        "fields": {
+            "party_name": "Apex College",
+            "title": "courses",
+            "posted_on": "2024-04-24T05:23:28.867Z",
+            "last_modified": "2024-04-25T06:21:05.643Z",
+            "image": "Ads/Apex College/courses/apex_college.gif",
+            "expiry_date": null,
+            "link": "https://apexcollege.edu.np/",
+            "section": "main",
+            "categories": [
+                9
+            ]
+        }
+    },
+    {
+        "model": "baseapp.ad",
+        "pk": 5,
+        "fields": {
+            "party_name": "Berger Paints",
+            "title": "glamarous and caring",
+            "posted_on": "2024-04-24T05:25:07.876Z",
+            "last_modified": "2024-04-24T05:33:51.518Z",
+            "image": "Ads/Berger Paints/glamarous and caring/berger_paints.gif",
+            "expiry_date": null,
+            "link": "https://www.bergerpaints.com/",
+            "section": "main",
+            "categories": [
+                8
+            ]
+        }
+    },
+    {
+        "model": "baseapp.ad",
+        "pk": 6,
+        "fields": {
+            "party_name": "Current",
+            "title": "noodles",
+            "posted_on": "2024-04-24T05:26:29.175Z",
+            "last_modified": "2024-04-24T05:26:29.175Z",
+            "image": "Ads/Current/noodles/current.webp",
+            "expiry_date": null,
+            "link": "https://www.yashodafoods.com.np/",
+            "section": "main",
+            "categories": [
+                8
+            ]
+        }
+    },
+    {
+        "model": "baseapp.ad",
+        "pk": 7,
+        "fields": {
+            "party_name": "Ncell",
+            "title": "Data Pack 150",
+            "posted_on": "2024-04-24T05:27:23.941Z",
+            "last_modified": "2024-04-24T05:28:15.193Z",
+            "image": "Ads/Ncell/Data Pack/ncell.gif",
+            "expiry_date": null,
+            "link": "https://www.ncell.com.np/en",
+            "section": "main",
+            "categories": [
+                8
+            ]
+        }
+    },
+    {
+        "model": "baseapp.ad",
+        "pk": 8,
+        "fields": {
+            "party_name": "Ncell",
+            "title": "Data pack 499",
+            "posted_on": "2024-04-24T05:29:26.604Z",
+            "last_modified": "2024-04-24T05:29:26.604Z",
+            "image": "Ads/Ncell/Data pack 499/ncell.jpg",
+            "expiry_date": null,
+            "link": null,
+            "section": "main",
+            "categories": [
+                8
+            ]
+        }
+    },
+    {
+        "model": "baseapp.ad",
+        "pk": 9,
+        "fields": {
+            "party_name": "Nepatop",
+            "title": "pipes",
+            "posted_on": "2024-04-24T05:30:40.591Z",
+            "last_modified": "2024-04-24T05:33:29.178Z",
+            "image": "Ads/Nepatop/pipes/nepa_top_side.gif",
+            "expiry_date": null,
+            "link": "https://nepatop.com.np/",
+            "section": "side",
+            "categories": [
+                8
+            ]
+        }
+    },
+    {
+        "model": "baseapp.ad",
+        "pk": 10,
+        "fields": {
+            "party_name": "NIC Asia",
+            "title": "mobile bank app",
+            "posted_on": "2024-04-24T05:33:04.069Z",
+            "last_modified": "2024-04-24T05:33:04.069Z",
+            "image": "Ads/NIC Asia/mobile bank app/nicasia.gif",
+            "expiry_date": null,
+            "link": null,
+            "section": "main",
+            "categories": [
+                8
+            ]
+        }
+    },
+    {
+        "model": "baseapp.ad",
+        "pk": 11,
+        "fields": {
+            "party_name": "Samsung",
+            "title": "services",
+            "posted_on": "2024-04-24T05:45:49.242Z",
+            "last_modified": "2024-04-25T06:14:24.198Z",
+            "image": "Ads/Samsung/services/samsung.gif",
+            "expiry_date": null,
+            "link": "https://www.samsung.com/us/",
+            "section": "main",
+            "categories": [
+                9
+            ]
+        }
+    },
+    {
+        "model": "baseapp.ad",
+        "pk": 12,
+        "fields": {
+            "party_name": "Shivam Cement",
+            "title": "cement",
+            "posted_on": "2024-04-24T05:47:30.003Z",
+            "last_modified": "2024-04-24T09:57:49.215Z",
+            "image": "Ads/Shivam Cement/cement/shivam_cement.gif",
+            "expiry_date": null,
+            "link": "https://www.shivamcement.com.np/",
+            "section": "main",
+            "categories": [
+                1
+            ]
+        }
+    },
+    {
+        "model": "baseapp.ad",
+        "pk": 13,
+        "fields": {
+            "party_name": "subisu",
+            "title": "smart offer",
+            "posted_on": "2024-04-24T05:49:10.693Z",
+            "last_modified": "2024-04-25T11:14:49.831Z",
+            "image": "Ads/subisu/smart offer/subisu.gif",
+            "expiry_date": null,
+            "link": "https://subisu.net.np/",
+            "section": "main",
+            "categories": [
+                1
+            ]
+        }
+    },
+    {
+        "model": "baseapp.popup",
+        "pk": 1,
+        "fields": {
+            "title": "Nepatop",
+            "image": "popup/nepatoo-main.png",
+            "link": "https://nepatop.com.np/"
+        }
+    }
+]
